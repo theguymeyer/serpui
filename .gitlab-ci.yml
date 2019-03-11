@@ -1,6 +1,11 @@
+stages:
+  - build
+  - deploy
+
 before-script:
-  script:
     - apt-get update && apt-get install nodejs
-    - node -v
     - npm install --save @google-cloud/speech
 
+job:
+  script:
+    - node -v
