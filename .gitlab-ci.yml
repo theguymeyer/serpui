@@ -7,5 +7,5 @@ before-script:
     - npm install --save @google-cloud/speech
 
 job:
-  script:
+  script: "check-node-version"
     - node -v
