@@ -1,0 +1,5 @@
+before-script:
+  - apt-get update && apt-get install nodejs
+  - node -v
+  - npm install --save @google-cloud/speech
+
