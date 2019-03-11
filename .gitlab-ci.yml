@@ -1,6 +1,6 @@
 before-script:
   script:
-    - apt-get update && apt-get install nodejs
+    - apt-get update && apt-get -y install nodejs
     - npm install --save @google-cloud/speech
 
 job:
