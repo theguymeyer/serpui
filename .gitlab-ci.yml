@@ -1,11 +1,10 @@
-stages:
-  - build
-  - deploy
-
 before-script:
     - apt-get update && apt-get install nodejs
     - npm install --save @google-cloud/speech
 
 job:
-  script: "check-node-version"
+  image: ubuntu:18.04
+  tags: 
+    - docker
+  script:
     - node -v
