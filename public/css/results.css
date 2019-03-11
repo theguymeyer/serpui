@@ -1,0 +1,53 @@
+/* Tag Names */
+html, body, .field {
+	height: 100%; 
+	width: 100%; 
+	margin: 0%; 
+	background: black;
+}
+
+button {
+	height: 100%; 
+	padding: 0;
+	border: 4px solid #000;
+	background: #cbb4a9;
+	vertical-align: middle;
+	font-size: 400%;
+	color: black;
+	text-align: center;
+}
+
+
+/* Class Names */
+.frontRow, .backRow {
+	height: 10%; 
+	padding: 0; 
+	width: 100%;
+}
+
+.frontRow {
+	background: url("http://www.cas.mcmaster.ca/~meyerg/ottoUI/res/frame.png") no-repeat;
+	background-size: contain;
+	background-position: top right 1%;
+}
+
+.middleRow {
+	height: 80%;
+}
+
+
+/* ID Names */
+#leftButton, #rightButton {
+	width: 10%;
+}
+
+#frontButton, #backButton {
+	width: 80%; 
+	display: block; 
+	margin: 0 auto;
+	font-size: inherit;
+}
+
+#neutralButton {
+	width: 80%;
+}

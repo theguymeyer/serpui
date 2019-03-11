@@ -1,0 +1,38 @@
+/* Tag Names */
+html, body, .field {
+	height: 100%; 
+	width: 100%; 
+	margin: 0%; 
+	background: white;
+}
+
+form {
+	height: inherit;
+	font-size: 10em;
+}
+
+input {
+	font-size: 200%;
+	width: 70%;
+	height: inherit;
+}
+
+/* Class Names */
+/*
+.middleRow {
+	height: 80%;
+}
+*/
+
+
+/* ID Names */
+#submitBtn {
+	font-size: large;
+	height: 10vh;
+	background-color: red;
+
+}
+
+#formDiv {
+	height: 50vh;
+}

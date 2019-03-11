@@ -1,0 +1,46 @@
+<!-- Query Entry -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- <base href="/firstApp/"> -->
+		
+		<!-- Google APIs -->
+		<!-- <script src="https://apis.google.com/js/api.js"></script> -->
+		<!-- jQuery Files -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js" type="text/javascript"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/textfit/2.3.1/textFit.js" type="text/javascript"></script> -->
+		<!-- Other Files -->
+		<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js" type="text/javascript"></script>
+		<script src="./scripts/binary.js" type="text/javascript"></script>
+		<!-- Custom JS Files -->
+		<!-- <script src="./scripts/SEResult.js" type="text/javascript"></script> -->
+		<!-- <script src="./scripts/getJSON.js" type="text/javascript"></script> -->
+		<script src="./scripts/client/home.js" type="text/javascript"></script>
+		<!-- <script src="./app.js" type="text/javascript"></script> -->
+		<!-- <script src="/firstApp/scripts/googleSTT/js/googleSTT.js" type="text/javascript"></script> -->
+		<!-- <script src="./getJSON_test.js" type="module"></script> -->
+		<!-- TTS API -->
+		<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+		<!-- Sound Effects API -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-sound/3.0.7/js/ion.sound.min.js" type="text/javascript"></script>
+		<!-- Sound Recording API -->
+		<script src="//www.WebRTC-Experiment.com/RecordRTC.js"></script>
+		<!-- JS Files - JoyCon -->
+		<script src="/scripts/joycon/getJoyCon.js" type="module"></script>
+		<!-- CSS Files -->
+		<link href="css/home.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="field">
+			<div id="formDiv">
+				<form action="/results" method="post">
+					Query: <br>
+					<input id="txtEntry" type="text" name="userQuery"><br>
+					<input id="submitBtn" type="submit">
+				</form>
+				<p id="query"></p>
+			</div>
+		</div>
+	</body>
+</html>
