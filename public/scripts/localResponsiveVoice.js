@@ -2,14 +2,24 @@
 // client-side
 
 // TTS - Responsive JS
-function TTS(txt, options = optionsTTS) {
+function TTS(txt, options) {
+
+    if (typeof options === "undefined") {
+        options = localOptionsTTS;
+    }
+
     responsiveVoice.speak(txt, options.voice, {
         volume: Math.round(options.vol_curr) / 100
     });
 }
 
 // changes the volume for Responsive JS
-function changeVolume(direction, options = optionsTTS) {
+function changeVolume(direction, options) {
+
+    if (typeof options === "undefined") {
+        options = localOptionsTTS;
+    }
+
     if (direction == "up") {
         options.vol_curr += options.vol_step;
         if (options.vol_curr > options.vol_max) {
@@ -26,11 +36,11 @@ function changeVolume(direction, options = optionsTTS) {
 }
 
 // TTS constants
-var optionsTTS = {
+var localOptionsTTS = {
     borderTxt: "border",
     voice: "UK English Male",
     vol_max: 100,
     vol_min: 0,
     vol_step: 5,
 };
-optionsTTS.vol_curr = eval((optionsTTS.vol_max + optionsTTS.vol_min) / 2);
+localOptionsTTS.vol_curr = eval((localOptionsTTS.vol_max + localOptionsTTS.vol_min) / 2);

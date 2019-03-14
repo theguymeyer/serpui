@@ -41,7 +41,7 @@ button {
 	width: 10%;
 }
 
-#frontButton, #backButton {
+#upButton, #downButton {
 	width: 80%; 
 	display: block; 
 	margin: 0 auto;

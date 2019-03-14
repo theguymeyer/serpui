@@ -5,13 +5,13 @@
  * This function library only works for usage of Right JoyCon Controller
  */
 var lastButtonPress;
+var myHapticActuators;
 
 (function() {
+
     let interval;
     var flag = false;
     var gamepadID;
-
-    //let interval;
 
     // current active button
     lastButtonPress = {
@@ -49,7 +49,9 @@ var lastButtonPress;
     }
 
     if ('GamepadEvent' in window) {
-        window.addEventListener("gamepadconnected", e => createHandlerConnected(e), false);
+        window.addEventListener("gamepadconnected", e => {
+            createHandlerConnected(e)
+        }, false);
         window.addEventListener("gamepaddisconnected", e => {
             removeGamepad(e.gamepad);
         });

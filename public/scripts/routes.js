@@ -4,7 +4,9 @@ module.exports = function(app) {
 
     /* Constant and Imports */
 
-    const homeDIR = '/var/www/html/firstApp/public';
+    const homeDIR = '/var/www/html/serpui/public';
+
+    // npm imports
     const {
         body,
         validationResult
@@ -12,10 +14,13 @@ module.exports = function(app) {
     const fs = require('fs');
     var https = require('https');
     var http = require('http');
+    const Multipart = require('multi-part');
+    var request = require("request")
 
-    const createQuery = require('./getJSON_new.js');
-    const Transform = require('stream').Transform;
-    const parser = new Transform();
+
+
+    // local imports
+    const createQuery = require('./getGoogleResultsJSON.js');
 
     /* Routes */
 
@@ -34,9 +39,6 @@ module.exports = function(app) {
 
     // POST request for entering SERP
     app.post('/results', (req, res) => {
-
-        // console.log('/test');
-        // console.log(req.body.userQuery);
 
         // Extract the validation errors from a request.
         const errors = validationResult(req);
@@ -77,10 +79,43 @@ module.exports = function(app) {
     });
 
     app.post('/voice', (req, res) => {
-        console.log('POST: audio file received')
-        console.log(req);
+        console.log('POST: audio file received', req.body);
+
+        console.log(req.body);
+
+        // blobUrl = url[0];
+        // console.log('blobUrl:\t', blobUrl);
+
+        // request({
+        //     url: blobUrl
+        // }, function(error, response, body) {
+
+        //     if (!error && response.statusCode === 200) {
+        //         console.log(body) // Print the json response
+        //     } else {
+        //         console.log(error, response, body);
+        //     }
+        // })
+
+        //-----------------------------------------
+
+        // var multipart_data = new Multipart(JSON.stringify(req.body));
+        // // console.log(multipart_data.opts);
+
+        // // write to file
+        // fs.writeFile(homeDIR + '/audio/sound.json', JSON.stringify(multipart_data.opts), function(err, data) {
+        //     (err) ? console.log(err): console.log("Successfully Written to File.");
+        // });
 
 
+        // var tmp = multipart_data.opts;
+        // var audioFile = '';
+        // for (var i = 0; i < Object.keys(tmp).length; i++) {
+        //     audioFile = audioFile + tmp[i].toString();
+        //     // console.log(tmp[i]);
+        // }
+
+        // console.log(audioFile);
 
         /*
 

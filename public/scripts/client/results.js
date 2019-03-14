@@ -38,6 +38,8 @@ const colourScheme = {
 
 /* Functions */
 
+/* ----- SERP Initializers ----- */
+
 // determines arrangement and content of every tile - organizes db
 function setupSERP() {
 
@@ -45,8 +47,10 @@ function setupSERP() {
 
     // jQuery request JSON query data from server 
     $.get('/db/resultData.json', function(data) {
-        console.log(data);
+        // console.log(data);
         generateResultsList(data);
+        initUser();
+        drawSERP(planSERP());
     })
 
 
@@ -66,40 +70,41 @@ function generateResultsList(data) {
             pos++;
         }
     };
-
-    initSERP();
 }
 
 // create initial state SERP
-function initSERP() {
+//  - this function sets user to first Tile, user = {0,1}
+function initUser() {
     // start at title of Result 1
     user = $.extend(user, {
         resultPos: 0,
-        contentPos: 1
+        contentPos: 1 // init to 1 since 0 is positions
     });
-
-    planSERP();
 }
 
-// set content of tiles to draw SERP - only requires user positioning
-function planSERP() {
-    var currentResult = getCurrentResult();
+// set content of tiles to draw SERP
+// Note that this func only requires user positioning
+function planSERP() { // user is global
+    var currResult = getCurrentResult(user);
     var currBorders = getBorders(user);
 
-    tiles = [borderTEXT, borderTEXT, user.resultPos + 1, borderTEXT, borderTEXT];
+    console.log(currResult);
 
-    for (i = 0; i < currBorders.length; i++) {
+    // tiles = [neutral, up, left, down, right]
+    var tilesPlan = Array(5).fill(''); //[borderTEXT, borderTEXT, user.resultPos + 1, borderTEXT, borderTEXT];
+
+    for (var i = 0; i < currBorders.length; i++) {
         if (!(currBorders[i])) {
-            if (i == 0) {
-                tiles[0] = cleanText(currentResult[resultsList[user.resultPos].getKeyPosition(user.contentPos)]);
-            } else if (i == 1) {
-                tiles[1] = "Result " + (user.resultPos);
-            } else if (i == 2) {
-                tiles[2] = currentResult[resultsList[user.resultPos].getKeyPosition(user.contentPos - 1)];
-            } else if (i == 3) {
-                tiles[3] = "Result " + (user.resultPos + 2);
-            } else if (i == 4) {
-                tiles[4] = currentResult[resultsList[user.resultPos].getKeyPosition(user.contentPos + 1)];
+            if (i == 0) { // neutral
+                tilesPlan[0] = currResult[resultsList[user.resultPos].getKeyPosition(user.contentPos)];
+            } else if (i == 1) { // up
+                tilesPlan[1] = "Result " + (user.resultPos);
+            } else if (i == 2) { // left
+                tilesPlan[2] = currResult[resultsList[user.resultPos].getKeyPosition(user.contentPos - 1)];
+            } else if (i == 3) { // down
+                tilesPlan[3] = "Result " + (user.resultPos + 2);
+            } else if (i == 4) { // right
+                tilesPlan[4] = currResult[resultsList[user.resultPos].getKeyPosition(user.contentPos + 1)];
             } else {
                 console.log("Error: Incorrect Border Count " + i)
             }
@@ -107,20 +112,28 @@ function planSERP() {
         }
     }
 
-    drawSERP(tiles);
+    // apply border scheme
+    for (var j = 0; j < tilesPlan.length; j++) {
+        (currBorders[j]) ? tilesPlan[j] = borderTEXT: console.log('ERROR with border Plan');
+    }
 
-    console.log("\nNEUTRAL STATUS:");
+    console.log("\nPLANNED STATUS:");
     console.log("USER:", user);
     console.log("BORDERS:", currBorders);
-    console.log("CURRENT RESULT DATA:", currentResult);
+    console.log("CURRENT RESULT DATA:", currResult);
     console.log("\n");
+
+    // return plan
+    return tilesPlan;
 }
 
 // implements the plan ( planSERP() )
+//      Input: Serp Plan to be implemented
+//      Output: GUI
 function drawSERP(tilesData) {
 
-    // assignment order: neutral -> front -> left -> back -> right
-    elementIDs = ['neutralButton', 'frontButton', 'leftButton', 'backButton', 'rightButton']
+    // assignment order: neutral -> up -> left -> down -> right
+    elementIDs = ['neutralButton', 'upButton', 'leftButton', 'downButton', 'rightButton']
 
     for (var i = 0; i < tilesData.length; i++) {
 
@@ -166,6 +179,8 @@ function drawSERP(tilesData) {
     }
 }
 
+/* ----- Accessors ----- */
+
 // maximum user result position
 function getMaxPosition() {
     return resultsList.length - 1;
@@ -177,60 +192,64 @@ function getMaxContentPos(result) {
 }
 
 // the tile object of the current user result position
-function getCurrentResult() {
-    return currentResult = resultsList[user.resultPos].getTiles();
+function getCurrentResult(userObj) {
+    return resultsList[userObj.resultPos].getTiles();
+}
+
+// get user location on SERP
+function getUserLocation(userObj) {
+    return ("Result " + (userObj.resultPos + 1) + ". Observing " + resultsList[userObj.resultPos].getKeyPosition(userObj.contentPos));
+}
+
+// get text in neutral tile
+function getNeutralText(userObj) {
+    var currentResult = getCurrentResult(userObj);
+    return currentResult[resultsList[userObj.resultPos].getKeyPosition(userObj.contentPos)];
 }
 
 // returns an array indicating current exisiting borders
-function getBorders() {
-    // borders = [neutral, front, left, back, right]
-    var borders = [false, false, false, false, false];
+function getBorders(userObj) {
 
-    // results
-    if (user.resultPos == 0) {
+    // borders = [neutral, up, left, down, right]
+    var borders = Array(5).fill(false);
+
+    // results (vertical)
+    if (userObj.resultPos == 0) {
         borders[1] = true;
-        borders[3] = false;
-    } else if (user.resultPos == getMaxPosition()) {
-        borders[1] = false;
+        // borders[3] = false;
+    } else if (userObj.resultPos == getMaxPosition()) {
+        // borders[1] = false;
         borders[3] = true;
-    } else if (user.resultPos == 0 && resultsList.length == 1) {
+    } else if (userObj.resultPos == 0 && resultsList.length == 1) { // only 1 result
         borders[1] = true;
         borders[3] = true;
     } else {
-        borders[1] = false;
-        borders[3] = false;
+        // borders[1] = false;
+        // borders[3] = false;
     }
 
-    // content
-    if (user.contentPos == 1) {
+    // content (horizontal)
+    if (userObj.contentPos == 1) {
         borders[2] = true;
-        borders[4] = false;
-    } else if (user.contentPos == getMaxContentPos(getCurrentResult())) {
-        borders[2] = false;
+        // borders[4] = false;
+    } else if (userObj.contentPos == getMaxContentPos(getCurrentResult(user))) {
+        // borders[2] = false;
         borders[4] = true;
-    } else if (getMaxContentPos(getCurrentResult()) == 1) {
+    } else if (getMaxContentPos(getCurrentResult(user)) == 1) { // only one content Tile
         borders[2] = true;
         borders[4] = true;
     } else {
-        borders[2] = false;
-        borders[4] = false;
+        // borders[2] = false;
+        // borders[4] = false;
     }
 
     return borders;
 }
 
+/* ----- User Functionality ----- */
+
 function resetContentPos() {
     user.contentPos = 1;
-}
-
-// get user location on SERP
-function getUserLocation() {
-    return ("Result " + (user.resultPos + 1) + ". Observing " + resultsList[user.resultPos].getKeyPosition(user.contentPos));
-}
-
-// get text in neutral tile
-function getNeutralText() {
-    return currentResult[resultsList[user.resultPos].getKeyPosition(user.contentPos)];
 }
 
 // user input to move tiles
@@ -240,53 +259,58 @@ function moveToTile(direction) {
     var currBorders = getBorders(user);
 
     switch (direction) {
-        case "front": // more significant result - lower position value (... -> 2 -> 1 -> BORDER)
+        case "up": // more significant result - lower position value (... -> 2 -> 1 -> BORDER)
             if (currBorders[1]) {
                 console.log("Invalid Move - BORDER");
                 TTS(optionsTTS.borderTxt + ". Result " + (user.resultPos + 1), optionsTTS);
             } else {
                 user.resultPos--;
                 resetContentPos();
-                planSERP();
+
+                drawSERP(planSERP());
             }
 
             break;
-        case "left": // more significant content (... -> website -> title -> BORDER)
+        case "left": // more significant content (... -> displayLink -> title -> BORDER)
             if (currBorders[2]) { // max left = 'title'
                 console.log("Invalid Move - BORDER");
                 TTS(optionsTTS.borderTxt + ". Result " + (user.resultPos + 1), optionsTTS);
             } else {
                 // TODO: go to - title of new position
                 user.contentPos--;
-                planSERP();
+
+                drawSERP(planSERP());
             }
 
             break;
-        case "back": // less significant result - lower position value (1 -> 2 -> ... -> BORDER)
+        case "down": // less significant result - lower position value (1 -> 2 -> ... -> BORDER)
             if (currBorders[3]) {
                 console.log("Invalid Move - BORDER");
                 TTS(optionsTTS.borderTxt + ". Result " + (user.resultPos + 1), optionsTTS);
             } else {
                 user.resultPos++;
                 resetContentPos();
-                planSERP();
+
+                drawSERP(planSERP());
             }
 
             break;
-        case "right": // less significant content (title -> website -> ... -> BORDER)
+        case "right": // less significant content (title -> displayLink -> ... -> BORDER)
             if (currBorders[4]) {
                 console.log("Invalid Move - BORDER");
                 TTS(optionsTTS.borderTxt + ". Result " + (user.resultPos + 1), optionsTTS);
             } else {
                 // TODO: go to - title of new position
                 user.contentPos++;
-                planSERP();
+
+                drawSERP(planSERP());
             }
 
             break;
-        case "neutral": // less significant content (title -> website -> ... -> BORDER)
-            TTS(getNeutralText(), optionsTTS);
+        case "neutral": // current Tile
+            TTS(getNeutralText(user), optionsTTS);
             break;
+
         default:
             // null (read text)
     }
@@ -302,20 +326,20 @@ function buttonRequest(buttonObject) {
         case "A": // move Right
             moveToTile('right');
             break;
-        case "X": // move Front
-            moveToTile('front');
+        case "X": // move up
+            moveToTile('up');
             break;
-        case "B": // move Back
-            moveToTile('back');
+        case "B": // move down
+            moveToTile('down');
             break;
         case "Y": // move Left
             moveToTile('left');
             break;
         case "R": // repeat current location 
-            TTS(getUserLocation(), optionsTTS);
+            TTS(getUserLocation(user), optionsTTS);
             break;
         case "RT": // repeat current text 
-            TTS(getNeutralText(), optionsTTS);
+            TTS(getNeutralText(user), optionsTTS);
             break;
         case "RSR": // + 5%  
             changeVolume("up", optionsTTS);
@@ -325,6 +349,9 @@ function buttonRequest(buttonObject) {
             break;
         case "HOME": // go to /home route
             goHome();
+            break;
+        case "PLUS": // stop talking
+            TTS("");
             break;
         default:
             console.log("Invalid Button");

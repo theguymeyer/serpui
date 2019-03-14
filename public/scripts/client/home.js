@@ -1,7 +1,9 @@
 // main controller - used to control index.html
 // client-side
 
-require(['require', './scripts/localResponsiveVoice.js', './scripts/localIonSound.js'], function(r) {
+// './scripts/localIonSound.js'
+
+require(['require', './scripts/localResponsiveVoice.js'], function(r) {
     console.log("Reached: Main Controller");
 });
 
@@ -22,14 +24,90 @@ navigator.mediaDevices.getUserMedia({
 
 */
 
+var mediaRecorder;
+var audio;
+var audioChunks;
+var rawAudio;
+var formData
+
+//  --------- Attempt to record audio locally only ---------
+navigator.mediaDevices.getUserMedia({
+        audio: true
+    })
+    .then(stream => {
+        mediaRecorder = new MediaRecorder(stream);
+
+        audioChunks = [];
+        mediaRecorder.addEventListener("dataavailable", event => {
+            audioChunks.push(event.data);
+        });
+
+        mediaRecorder.addEventListener("stop", () => {
+            const audioBlob = new Blob(audioChunks, {
+                type: "audio/wav"
+            });
+            const audioUrl = URL.createObjectURL(audioBlob);
+            audio = new Audio(audioUrl);
+
+
+            // GET request to get raw audio
+            $.get(audio.src, d => {
+                rawAudio = d;
+
+                // add to form
+                formData = new FormData();
+                formData.append("rawAudioData", rawAudio);
+
+                // Send to server
+                $.ajax({
+                    type: 'POST',
+                    url: '/voice',
+                    data: audioUrl,
+                    // contentType: false,
+                    cache: true,
+                    processData: false,
+                })
+            })
+
+        });
+
+        // setTimeout(() => {
+        //     mediaRecorder.stop();
+        // }, 3000);
+    });
+
+function Start() {
+    mediaRecorder.start();
+    console.log('Started....');
+}
+
+function Stop() {
+    mediaRecorder.stop();
+    console.log('Stopped....');
+}
+
+
 //  --------- Attempt to record audio locally and send to server ---------
+/*
+
 var session = {
     audio: true,
-    video: false
+    // video: false
 };
 var recordRTC = null;
+var formData = new FormData();
 navigator.getUserMedia(session, function(MediaStream) {
     recordRTC = RecordRTC(MediaStream);
+    recordRTC.mimeType = 'audio/webm';
+
+    recordRTC.stopRecording(function(audioURL) {
+
+        var blobOBJ = recordRTC.getBlob();
+        formData.append('edition[audio]', blobOBJ);
+
+        console.log(JSON.stringify(blobOBJ));
+        // console.log(formData);
+    });
 
 }, err => {
     console.log(err);
@@ -40,23 +118,19 @@ function Start() {
     recordRTC.startRecording();
 }
 
+
 function Stop() {
-    recordRTC.stopRecording(function(audioURL) {
-        var formData = new FormData();
-        formData.append('edition[audio]', recordRTC.getBlob().size);
-        $.ajax({
-            type: 'POST',
-            url: '/voice',
-            data: JSON.stringify(formData),
-            // contentType: false,
-            cache: false,
-            processData: false,
-        })
+    $.ajax({
+        type: 'POST',
+        url: '/voice',
+        data: formData,
+        // contentType: false,
+        cache: false,
+        processData: false,
+    })
 
-        console.log(formData);
-    });
 }
-
+*/
 
 /*  --------- Attempt to send audio stream to server ---------
 var session = {
@@ -219,6 +293,7 @@ function GETgoogleSTT(file) {
 // this function is invoked by getJoyCon.js interface
 //      INPUT: buttonObject = { "id": int, "name": string }
 function buttonRequest(buttonObject) {
+
     buttonID = buttonObject.id;
 
     switch (buttonID) {
@@ -233,6 +308,7 @@ function buttonRequest(buttonObject) {
             flag_recording = false;
             break;
         case "Y": // unused
+            audio.play();
             break;
         case "R": // unused 
             // TTS(getUserLocation());

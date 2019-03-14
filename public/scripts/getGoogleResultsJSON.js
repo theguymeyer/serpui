@@ -32,20 +32,6 @@ const {
 } = require('googleapis');
 const customsearch = google.customsearch('v1');
 
-async function getSERPasJSON(options) {
-
-    //console.log(options);
-
-    const res = await customsearch.cse.list({
-        cx: options.cx,
-        q: options.q,
-        auth: options.apiKey,
-    });
-
-    //console.log(res.data);
-    return res.data; // Promise
-}
-
 async function createQuery(query) {
 
     const options = {
@@ -54,29 +40,13 @@ async function createQuery(query) {
         cx: '006303259406563352342:pkhojuu5620',
     };
 
-    // return {
-    //     items: {
-    //         title: "the who",
-    //         displaylink: "what",
-    //         snippet: "where"
-    //     }
-    // };
+    const res = await customsearch.cse.list({
+        cx: options.cx,
+        q: options.q,
+        auth: options.apiKey,
+    });
 
-    return getSERPasJSON(options);
-
-
-    // .then(function(response) {
-    //     // console.log(`THIS IS THE RESPONSE: ${JSON.stringify(response)}`);
-    //     // return response;
-    // })
-    // .catch(console.error);
-
-    // console.log(`PROMISE: ${prom}`);
+    return res.data; // Promise
 }
 
-
-
 module.exports = createQuery;
-
-// working function example: 
-// 		createQuery('What is the answer to life?');
