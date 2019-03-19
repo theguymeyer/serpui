@@ -3,8 +3,9 @@ before_script:
     - npm install --save @google-cloud/speech
 
 job:
-  image: mongo-express:latest
+  image: ubuntu:18.04
   tags: 
     - docker
   script:
     - nodejs -v
+    - node ./public/scripts/app.js
