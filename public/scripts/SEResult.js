@@ -1,13 +1,13 @@
 // Definition for the SEResult object
 // client-side
 
-require(['require'], function(s) {
+require(['require', './scripts/getWebsiteContent.js'], function(s) {
     console.log("Reached: SEResult");
 });
 
 function SEResult(data, pos) {
     /*
-    Object definition for SE result 
+    Object definition for SE result (a set of tiles)
         - Each Search Result has three 'tiles' (atm) that 
             the user can access (excluding position, which 
             they can request at any time) 
@@ -63,14 +63,16 @@ function SEResult(data, pos) {
                 this.tiles[elem] = this.cleanText(this.myData[elem], elem);
                 // console.log('post', this.tiles);
             } else {
-                console.log('Condition', (elem in this.myData));
+                // console.log('Condition', (elem in this.myData));
             }
         }
 
-        (this.generateMore([{
-            tileName: 'Content',
-            tileContent: this.myData
-        }])) ? console.log("Added More..."): console.log("Error with Adding More!"); // add more custom tiles
+        // generate new tile that include HTML from link of SE Result
+        //      TODO: should also include a Type
+        (this.generateTile({
+            newTileName: 'Site Content',
+            newTileContent: this.myData['link']
+        })) ? console.log("Added More..."): console.log("Error with Adding More!"); // add more custom tiles
     }
 
     // removes all '\' escape characters and unnecessary text
@@ -87,31 +89,36 @@ function SEResult(data, pos) {
         return JSON.parse(tmpTxt);
     }
 
-    /* This function will create more tiles as necessary
-     *      Input: list of content object to add
-     *      Output: true    if more content requested
-     *              false   if Input.length == 0
+    /* This function will create a new tile at the end
+     *      Input: single content object to be added
+     *      Output: true    if successfully added
+     *              false   if no object given
      */
-    this.generateMore = function(contentList) {
+    this.generateTile = function(contentObj) {
 
-        if (typeof contentList === "undefined") { // no content to add
+        if (typeof contentObj === "undefined") { // no content to add
             return false;
         }
 
-        // console.log('contentList', contentList);
+        // Prep Tile
+        this.tileContentPos = this.tileContentPos.concat(contentObj.newTileName);
 
-        for (var i = 0; i < contentList.length; i++) {
+        $.post('/externalSite', {
+                url: contentObj.newTileContent
+            })
+            .done(data => {
+                console.log('DATA From NODE....', data);
+                this.tiles[contentObj.newTileName] = data;
+                console.log('CONTENT!!!!', data);
 
-            // console.log(contentList[i].tileName);
-            this.tileContentPos.concat(contentList[i].tileName);
+            }).fail(err => {
+                this.tiles[contentObj.newTileName] = "Could not resolve website";
+                console.log('FAILING HERE 2');
+            });
 
-            // use tileContent to determine between the modalities:
-            //      standard webpage, video, audio, form (user I/O),... 
-            // console.log(contentList[i].tileContentLink);
-            // this.tiles[contentList.tileName] = `${contentList.tileContentLink}`;
-        }
 
         return true;
+
     }
 
 };
