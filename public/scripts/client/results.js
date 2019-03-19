@@ -117,11 +117,11 @@ function planSERP() { // user is global
         (currBorders[j]) ? tilesPlan[j] = borderTEXT: console.log('ERROR with border Plan');
     }
 
-    console.log("\nPLANNED STATUS:");
-    console.log("USER:", user);
-    console.log("BORDERS:", currBorders);
-    console.log("CURRENT RESULT DATA:", currResult);
-    console.log("\n");
+    // console.log("\nPLANNED STATUS:");
+    // console.log("USER:", user);
+    // console.log("BORDERS:", currBorders);
+    // console.log("CURRENT RESULT DATA:", currResult);
+    // console.log("\n");
 
     // return plan
     return tilesPlan;
@@ -137,36 +137,54 @@ function drawSERP(tilesData) {
 
     for (var i = 0; i < tilesData.length; i++) {
 
-        currButton = document.getElementById(elementIDs[i])
-        currButton.innerHTML = tilesData[i];
+        currButton = document.getElementById(elementIDs[i]);
+        console.log('tilesData[i]', tilesData[i]);
 
-        // change colour for borders - TODO: user chooses colours
-        elem = document.getElementById(elementIDs[i]);
-        if (tilesData[i] == borderTEXT || tilesData[i] == (user.resultPos + 1)) {
-            elem.style.background = colourScheme.borderBkgd;
-            elem.style.color = colourScheme.borderText;
-        } else {
-            elem.style.background = colourScheme.activeBkgd;
-            elem.style.color = colourScheme.activeText;
+        if (tilesData[i].includes('iframe') && elementIDs[i] == 'neutralButton') { // include iframe if requested
+            var myId = (tilesData[i].split(':'))[1];
+            currButton.text = "";
+
+            // embed iframe for video
+            currButton.innerHTML = '<iframe id="yt_player_iframe" width="100%" height="100%" src="//www.youtube.com/embed/' + myId +
+                `?autoplay=${(i == 0) ? 1 : 0}&enablejsapi=1" frameborder="0" allowscriptaccess="always" allowfullscreen></iframe>`;
+
+            // enlarge video content to fit Tile
+            var spanChild = document.getElementById('neutralButton').children[0]
+            spanChild.setAttribute("style", "height: 100%; width: 100%;");
+
+        } else { // iframe not requested
+
+            currButton.innerHTML = tilesData[i];
+
+            if (tilesData[i] == borderTEXT || tilesData[i] == (user.resultPos + 1)) {
+                currButton.style.background = colourScheme.borderBkgd;
+                currButton.style.color = colourScheme.borderText;
+            } else {
+                currButton.style.background = colourScheme.activeBkgd;
+                currButton.style.color = colourScheme.activeText;
+            }
+
+
+            // Adjust font size to button size
+            if (elementIDs[i] == 'neutralButton') {
+                textFit(document.getElementById(elementIDs[i]), {
+                    multiLine: true,
+                    minFontSize: 50,
+                    maxFontSize: 100,
+                    alignHoriz: true,
+                    alignVert: true,
+                    widthOnly: false
+                });
+            } else {
+                textFit(document.getElementById(elementIDs[i]), {
+                    multiLine: true,
+                    minFontSize: 15,
+                    maxFontSize: 100
+                });
+            }
+
         }
 
-        // Adjust font size to button size
-        if (elementIDs[i] == 'neutralButton') {
-            textFit(document.getElementById(elementIDs[i]), {
-                multiLine: true,
-                minFontSize: 50,
-                maxFontSize: 100,
-                alignHoriz: true,
-                alignVert: true,
-                widthOnly: false
-            });
-        } else {
-            textFit(document.getElementById(elementIDs[i]), {
-                multiLine: true,
-                minFontSize: 15,
-                maxFontSize: 100
-            });
-        }
     }
 
 
@@ -352,6 +370,7 @@ function buttonRequest(buttonObject) {
             break;
         case "PLUS": // stop talking
             TTS("");
+            pauseVideo();
             break;
         default:
             console.log("Invalid Button");
@@ -366,4 +385,11 @@ function goHome() {
     referLink.click();
 
     console.log('Attempted home');
+}
+
+function pauseVideo() {
+
+    $('.yt_player_iframe').each(function() {
+        this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
+    });
 }

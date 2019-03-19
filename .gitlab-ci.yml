@@ -1,6 +1,6 @@
 before-script:
   script:
-    - apt-get update && apt-get -y install nodejs
+    - apt-get update && apt-get -y install nodejs npm
     - npm install --save @google-cloud/speech
 
 job:
@@ -8,4 +8,4 @@ job:
   tags: 
     - docker
   script:
-    - node -v
+    - nodejs -v

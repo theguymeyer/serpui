@@ -69,9 +69,14 @@ function SEResult(data, pos) {
 
         // generate new tile that include HTML from link of SE Result
         //      TODO: should also include a Type
+
+        var newType = this.myData["pagemap"]["metatags"][0]["og:type"];
+        (newType) ? console.log(newType): newType = "none";
+
         (this.generateTile({
             newTileName: 'Site Content',
-            newTileContent: this.myData['link']
+            newTileContent: this.myData['link'],
+            newTileType: newType,
         })) ? console.log("Added More..."): console.log("Error with Adding More!"); // add more custom tiles
     }
 
@@ -100,25 +105,42 @@ function SEResult(data, pos) {
             return false;
         }
 
-        // Prep Tile
+        // Prep Tile positioning
         this.tileContentPos = this.tileContentPos.concat(contentObj.newTileName);
 
-        $.post('/externalSite', {
-                url: contentObj.newTileContent
-            })
-            .done(data => {
-                console.log('DATA From NODE....', data);
-                this.tiles[contentObj.newTileName] = data;
-                console.log('CONTENT!!!!', data);
+        var tileType = contentObj.newTileType;
+        if (tileType.includes('video')) { // type = video
 
-            }).fail(err => {
-                this.tiles[contentObj.newTileName] = "Could not resolve website";
-                console.log('FAILING HERE 2');
-            });
+            this.tiles[contentObj.newTileName] = "iframe:" + this.getYoutubeVideo(contentObj.newTileContent);
 
+        } else { // type = other
+
+            $.post('/externalSite', {
+                    url: contentObj.newTileContent
+                })
+                .done(data => {
+                    this.tiles[contentObj.newTileName] = data;
+                })
+                .fail(err => {
+                    this.tiles[contentObj.newTileName] = "Could not resolve website";
+                });
+
+        }
 
         return true;
 
+    }
+
+
+    this.getYoutubeVideo = function(url) {
+        var regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+        var match = url.match(regExp);
+
+        if (match && match[2].length == 11) {
+            return match[2];
+        } else {
+            return 'error';
+        }
     }
 
 };

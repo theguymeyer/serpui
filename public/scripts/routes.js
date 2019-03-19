@@ -95,32 +95,19 @@ module.exports = function(app) {
 
         read(req.body.url, function(err, article, response) {
 
+            // console.log('article', article);
+
             if (!(article.content)) {
                 res.send("Incompatible Site");
             } else {
 
-                console.log(striptags(article.content));
+                // console.log(striptags(article.content));
 
-                res.send(striptags(article.content));
+                var contentResponse = article.title + '\n\n' + striptags(article.content);
+                res.send(contentResponse);
             }
 
         })
-
-
-
-        /*
-
-        // console.log(getHTMLContent(req.body.url));
-        http.createServer(getHTMLContent(req.body.url), (content) => {
-            // console.log('____This is my response for POST____');
-
-            console.log('My Data', content);
-
-            res.send(content);
-        })
-
-        */
-
 
     })
 
