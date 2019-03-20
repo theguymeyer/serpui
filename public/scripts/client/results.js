@@ -52,8 +52,6 @@ function setupSERP() {
         initUser();
         drawSERP(planSERP());
     })
-
-
 };
 
 function generateResultsList(data) {

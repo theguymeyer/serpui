@@ -1,16 +1,17 @@
 // Definition for the SEResult object
 // client-side
 
-require(['require', './scripts/getWebsiteContent.js'], function(s) {
+require(['require', './scripts/getWebpageContents.js'], function(s) {
     console.log("Reached: SEResult");
 });
 
 function SEResult(data, pos) {
     /*
     Object definition for SE result (a set of tiles)
-        - Each Search Result has three 'tiles' (atm) that 
+        - Each Search Result has n 'tiles' that 
             the user can access (excluding position, which 
             they can request at any time) 
+        - To add additional Tiles use 'generateTile' method
     */
 
     console.log("Created: SEResult object");
@@ -68,16 +69,20 @@ function SEResult(data, pos) {
         }
 
         // generate new tile that include HTML from link of SE Result
-        //      TODO: should also include a Type
+        var newType = "";
+        try {
+            newType = this.myData["pagemap"]["metatags"][0]["og:type"];
+            (newType) ? console.log(newType): newType = "none";
 
-        var newType = this.myData["pagemap"]["metatags"][0]["og:type"];
-        (newType) ? console.log(newType): newType = "none";
+            (this.generateTile({
+                newTileName: 'Site Content',
+                newTileContent: this.myData['link'],
+                newTileType: newType,
+            })) ? console.log("Added More..."): console.log("Error with Adding More!"); // add more custom tiles
 
-        (this.generateTile({
-            newTileName: 'Site Content',
-            newTileContent: this.myData['link'],
-            newTileType: newType,
-        })) ? console.log("Added More..."): console.log("Error with Adding More!"); // add more custom tiles
+        } catch (e) {
+            console.log(e);
+        }
     }
 
     // removes all '\' escape characters and unnecessary text
@@ -95,43 +100,44 @@ function SEResult(data, pos) {
     }
 
     /* This function will create a new tile at the end
-     *      Input: single content object to be added
+     *      Input: single tile object to be added (contains tile data)
      *      Output: true    if successfully added
-     *              false   if no object given
+     *              false   if no object given /  could not resolve data
      */
-    this.generateTile = function(contentObj) {
+    this.generateTile = function(tileObj) {
 
-        if (typeof contentObj === "undefined") { // no content to add
+        if (typeof tileObj === "undefined") { // no content to add
             return false;
         }
 
         // Prep Tile positioning
-        this.tileContentPos = this.tileContentPos.concat(contentObj.newTileName);
+        this.tileContentPos = this.tileContentPos.concat(tileObj.newTileName);
 
-        var tileType = contentObj.newTileType;
+        var tileType = tileObj.newTileType;
         if (tileType.includes('video')) { // type = video
 
-            this.tiles[contentObj.newTileName] = "iframe:" + this.getYoutubeVideo(contentObj.newTileContent);
+            this.tiles[tileObj.newTileName] = "iframe:" + this.getYoutubeVideo(tileObj.newTileContent);
 
         } else { // type = other
 
             $.post('/externalSite', {
-                    url: contentObj.newTileContent
+                    url: tileObj.newTileContent
                 })
                 .done(data => {
-                    this.tiles[contentObj.newTileName] = data;
+                    this.tiles[tileObj.newTileName] = data;
                 })
                 .fail(err => {
-                    this.tiles[contentObj.newTileName] = "Could not resolve website";
+                    this.tiles[tileObj.newTileName] = "Could not resolve website";
+                    return false;
                 });
 
         }
 
         return true;
-
     }
 
 
+    // converts youtube URL to iframe compatible link
     this.getYoutubeVideo = function(url) {
         var regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
         var match = url.match(regExp);

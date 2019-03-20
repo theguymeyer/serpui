@@ -8,6 +8,10 @@ function TTS(txt, options) {
         options = localOptionsTTS;
     }
 
+    if (txt.includes('iframe')) {
+        txt = "Video";
+    }
+
     responsiveVoice.speak(txt, options.voice, {
         volume: Math.round(options.vol_curr) / 100
     });

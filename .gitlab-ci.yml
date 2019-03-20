@@ -8,4 +8,4 @@ job:
     - docker
   script:
     - nodejs -v
-    - node ./public/scripts/app.js
+    - ls

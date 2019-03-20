@@ -19,17 +19,6 @@ async function getHTMLContent(url) {
 
         return striptags(article.content);
 
-
-        // promises a clean html
-        // let content = cleanContent(article.content);
-
-        // content.then(data => {
-        //     // console.log('Cleaned data', data);
-        //     return data;
-        // })
-
-        // console.log(JSON.stringify(article.title) + '\n\n' + content);
-
     });
 }
 
