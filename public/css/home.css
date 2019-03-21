@@ -1,21 +1,21 @@
 /* Tag Names */
 html, body, .field {
-	height: 100%; 
-	width: 100%; 
-	margin: 0%; 
+	height: 95%; 
+	width: 95%; 
+	margin: 1%; 
 	background: white;
-	margin:	2%;
 }
 
 form {
 	height: inherit;
+	width: 100%;
 	font-size: 10em;
+	background-color: inherit;
 }
 
 input {
-	font-size: 200%;
-	width: 80%;
-	height: inherit;
+	font-size: 300%;
+	width: 100%;
 }
 
 /* Class Names */
@@ -31,6 +31,7 @@ input {
 	font-size: large;
 	height: 10vh;
 	background-color: red;
+	width: inherit;
 
 }
 

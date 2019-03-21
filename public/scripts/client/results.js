@@ -332,6 +332,25 @@ function moveToTile(direction) {
     }
 }
 
+// takes user back to '/home' page
+function goHome() {
+    var referLink = document.createElement("a");
+    referLink.href = '/home';
+    document.body.appendChild(referLink);
+    referLink.click();
+
+    console.log('Attempted home');
+}
+
+function pauseVideo() {
+
+    $('.yt_player_iframe').each(function() {
+        this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
+    });
+}
+
+/* ----- JoyCon ----- */
+
 // this function is invoked by getJoyCon.js interface
 //      INPUT: buttonObject = { "id": int, "name": string }
 function buttonRequest(buttonObject) {
@@ -373,21 +392,4 @@ function buttonRequest(buttonObject) {
         default:
             console.log("Invalid Button");
     }
-}
-
-// takes user back to '/home' page
-function goHome() {
-    var referLink = document.createElement("a");
-    referLink.href = '/home';
-    document.body.appendChild(referLink);
-    referLink.click();
-
-    console.log('Attempted home');
-}
-
-function pauseVideo() {
-
-    $('.yt_player_iframe').each(function() {
-        this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
-    });
 }
