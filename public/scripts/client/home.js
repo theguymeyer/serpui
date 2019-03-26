@@ -12,7 +12,8 @@ require(['require', './scripts/localResponsiveVoice.js'], function(r) {
 // Globals Variables
 var flag_recording = false; // true when recording
 var final_transcript = '';
-// var form = document.getElementById("formDiv");
+Synth instanceof AudioSynth; // audio object 
+var piano = Synth.createInstrument('piano');
 
 // TTS constants
 const optionsTTS = {
@@ -101,24 +102,28 @@ function setFormValue(txt, color) {
 
 function Start() { // start recording
     recog.start();
+    piano.play('C', 2, 1);
 }
 
 function Stop() { // stop recording
     final_transcript = final_transcript + " "; // prep for more text
     recog.stop();
+    piano.play('G', 3, 1);
 }
 
 function Clear() { // clear recording buffer
     final_transcript = '';
     setFormValue(final_transcript);
+    piano.play('E', 3, 1);
 }
 
 function ClarifySTT() { // read back recording buffer
     TTS(final_transcript);
 }
 
-function submit() {
-    if (final_transcript != "") { // dont submit empty query
+function Submit() {
+    if (_.trim(final_transcript) != "") {
+        // dont submit empty query
         var subBtn = document.getElementById("submitBtn");
         subBtn.click();
     } else {
@@ -126,6 +131,11 @@ function submit() {
         Clear(); // clear any false positives
     }
 }
+
+// Disables all buttons and explains what a pressed button does
+// function helpMe() {
+
+// }
 
 /* ----- JoyCon ----- */
 
@@ -137,24 +147,28 @@ function buttonRequest(buttonObject) {
 
     switch (buttonID) {
         case "A": // submit
-            submit();
+            Submit();
             break;
         case "X": // Start Recording
-            (!flag_recording) ? Start(): console.log('Not Recording (Press B)...');
+            (!flag_recording) ? Start(): console.log('Not Recording (Press DOWN)...');
             flag_recording = true;
             break;
         case "B": // Stop Recording
-            (flag_recording) ? Stop(): console.log('Recording (Press X)');
+            (flag_recording) ? Stop(): console.log('Recording (Press UP)');
             flag_recording = false;
             break;
         case "Y": // clear buffer
             Clear();
             break;
         case "R": // unused 
-            // TTS(getUserLocation());
+            TTS("Home Page. Press up to record a query");
+            break;
+        case "RA": // Joystick - Helper Mode
+            console.log("TODO: Key Helper Function");
+            // helpMe(); 
             break;
         case "RT": // Repeat current STT buffer text 
-            (!flag_recording) ? ClarifySTT(): TTS("Press Stop")
+            (!flag_recording) ? ClarifySTT(): TTS("Press Stop (B Button)");
             break;
         case "RSR": // + 5%
             changeVolume("up", optionsTTS);
@@ -162,13 +176,13 @@ function buttonRequest(buttonObject) {
         case "RSL": // - 5% 
             changeVolume("down", optionsTTS);
             break;
-        case "HOME": // TODO: refresh page
+        case "HOME": // refresh page
             document.location.reload(true);
             break;
         case "PLUS": // stop talking
             TTS("");
             break;
         default:
-            console.log("Invalid Button");
+            console.log("Invalid Button... ID:", buttonObject.id);
     }
 }

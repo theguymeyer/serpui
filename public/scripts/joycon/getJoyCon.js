@@ -48,17 +48,6 @@ var myHapticActuators;
         31: 'LT'
     }
 
-    if ('GamepadEvent' in window) {
-        window.addEventListener("gamepadconnected", e => {
-            createHandlerConnected(e)
-        }, false);
-        window.addEventListener("gamepaddisconnected", e => {
-            removeGamepad(e.gamepad);
-        });
-    } else {
-        interval = setInterval(pollGamepads, 1000);
-    }
-
     // event handler for gamepad connected
     var createHandlerConnected = function(event) {
         console.log("Reached: JoyCon Setup");
@@ -137,5 +126,18 @@ var myHapticActuators;
             window.requestAnimationFrame(pollGamepads);
         }
     }
+
+
+    if ('GamepadEvent' in window) {
+        window.addEventListener("gamepadconnected", e => {
+            createHandlerConnected(e);
+        }, false);
+        window.addEventListener("gamepaddisconnected", e => {
+            removeGamepad(e.gamepad);
+        });
+    } else {
+        interval = setInterval(pollGamepads, 1000);
+    }
+
 
 })();
