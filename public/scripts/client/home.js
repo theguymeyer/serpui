@@ -137,27 +137,29 @@ function Submit() {
 
 // }
 
-/* ----- JoyCon ----- */
+/* ----- Key Binding - JoyCon ----- */
 
 // this function is invoked by getJoyCon.js interface
 //      INPUT: buttonObject = { "id": int, "name": string }
 function buttonRequest(buttonObject) {
 
+    console.log('buttonObject', buttonObject);
+
     buttonID = buttonObject.id;
 
     switch (buttonID) {
-        case "A": // submit
+        case "A": // submit - RIGHT
             Submit();
             break;
-        case "X": // Start Recording
+        case "X": // Start Recording - UP
             (!flag_recording) ? Start(): console.log('Not Recording (Press DOWN)...');
             flag_recording = true;
             break;
-        case "B": // Stop Recording
+        case "B": // Stop Recording - DOWN
             (flag_recording) ? Stop(): console.log('Recording (Press UP)');
             flag_recording = false;
             break;
-        case "Y": // clear buffer
+        case "Y": // clear buffer - LEFT
             Clear();
             break;
         case "R": // unused 
@@ -186,3 +188,69 @@ function buttonRequest(buttonObject) {
             console.log("Invalid Button... ID:", buttonObject.id);
     }
 }
+
+
+/* ----- Key Binding - Keyboard ----- */
+
+var keyMap = {
+    "LEFT": 52,
+    "UP": 56,
+    "RIGHT": 54,
+    "DOWN": 50,
+    "REPEAT": 53,
+    "LOCATION": 48,
+    "HOME": 55,
+    "STOP": 49
+}
+
+// This event maps keyboard buttons to buttonObject requests
+// does not include volume control
+$(document).keypress(function(e) {
+
+    var keyObject = {
+        active: false,
+        duration: 1,
+        id: ""
+    };
+
+    switch (e.which) {
+        case keyMap["LEFT"]: // left - 4
+            keyObject.id = "Y";
+            break;
+
+        case keyMap["UP"]: // up - 8
+            keyObject.id = "X";
+            break;
+
+        case keyMap["RIGHT"]: // right - 6
+            keyObject.id = "A";
+            break;
+
+        case keyMap["DOWN"]: // down - 2
+            keyObject.id = "B";
+            break;
+
+        case keyMap["REPEAT"]: // Repeat Tile - 5
+            keyObject.id = "RT";
+            break;
+
+        case keyMap["LOCATION"]: // User Location - 0
+            keyObject.id = "R";
+            break;
+
+        case keyMap["HOME"]: // Home - 7
+            keyObject.id = "HOME";
+            break;
+
+        case keyMap["STOP"]: // Stop TTS - 1
+            keyObject.id = "PLUS";
+            break;
+
+        default:
+            return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+
+    buttonRequest(keyObject);
+
+});

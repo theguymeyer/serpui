@@ -349,7 +349,7 @@ function pauseVideo() {
     });
 }
 
-/* ----- JoyCon ----- */
+/* ----- Key Binding - JoyCon ----- */
 
 // this function is invoked by getJoyCon.js interface
 //      INPUT: buttonObject = { "id": int, "name": string }
@@ -393,3 +393,69 @@ function buttonRequest(buttonObject) {
             console.log("Invalid Button");
     }
 }
+
+
+/* ----- Key Binding - Keyboard ----- */
+
+var keyMap = {
+    "LEFT": 100,
+    "UP": 104,
+    "RIGHT": 102,
+    "DOWN": 98,
+    "REPEAT": 101,
+    "LOCATION": 96,
+    "HOME": 103,
+    "STOP": 97
+}
+
+// This event maps keyboard buttons to buttonObject requests
+// does not include volume control
+$(document).keydown(function(e) {
+
+    var keyObject = {
+        active: false,
+        duration: 1,
+        id: ""
+    };
+
+    switch (e.which) {
+        case keyMap["LEFT"]: // left - 4
+            keyObject.id = "Y";
+            break;
+
+        case keyMap["UP"]: // up - 8
+            keyObject.id = "X";
+            break;
+
+        case keyMap["RIGHT"]: // right - 6
+            keyObject.id = "A";
+            break;
+
+        case keyMap["DOWN"]: // down - 2
+            keyObject.id = "B";
+            break;
+
+        case keyMap["REPEAT"]: // Repeat Tile - 5
+            keyObject.id = "RT";
+            break;
+
+        case keyMap["LOCATION"]: // User Location - 0
+            keyObject.id = "R";
+            break;
+
+        case keyMap["HOME"]: // Home - 7
+            keyObject.id = "HOME";
+            break;
+
+        case keyMap["STOP"]: // Stop TTS - 1
+            keyObject.id = "PLUS";
+            break;
+
+        default:
+            return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+
+    buttonRequest(keyObject);
+
+});
