@@ -6,17 +6,22 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var port = 3000;
+var sport = 4000;
 
 app.use(express.json());
 app.use(bodyParser.urlencoded({
     extended: true
 }));
-app.use(express.static('/var/www/html/serpui/public')); // root directory
+app.use(express.static(__dirname, {
+    dotfiles: 'allow'
+})); // root directory
 
 // merge route.js with app
 require('./routes.js')(app);
 
+
 app.listen(port);
+app.listen(sport);
 
 
-console.log('App Started!');
+console.log('App Started!', __dirname);

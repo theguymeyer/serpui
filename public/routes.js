@@ -4,7 +4,7 @@ module.exports = function(app) {
 
     /* Constant and Imports */
 
-    const homeDIR = '/var/www/html/serpui/public';
+    // const homeDIR = '/var/www/html/serpui/public';
 
     // npm imports
     const {
@@ -23,15 +23,15 @@ module.exports = function(app) {
 
 
     // local imports
-    const createQuery = require('./getGoogleResultsJSON.js');
-    const getHTMLContent = require('./getWebpageContents.js');
+    const createQuery = require('./scripts/getGoogleResultsJSON.js');
+    const getHTMLContent = require('./scripts/getWebpageContents.js');
 
     /* ---------- Routes ---------- */
 
     // GET request to go Home (ie. Query entry page)
-    app.get('/home', (req, res) => {
+    app.get(['/', '/home'], (req, res) => {
         // require(__dirname + '/client/index.js');
-        res.sendFile(homeDIR + '/views/index.html', function(err) {
+        res.sendFile(__dirname + '/views/index.html', function(err) {
             if (err) {
                 console.log('ERROR in transmission');
                 res.status(err.status).end();
@@ -61,14 +61,14 @@ module.exports = function(app) {
             // createQuery() exported from /scripts/getGoogleResultsJSON.js
             createQuery(queryObj.data).then(q => {
 
-                fs.writeFile(homeDIR + '/db/resultData.json', JSON.stringify(q), function(err) {
+                fs.writeFile(__dirname + '/db/resultData.json', JSON.stringify(q), function(err) {
                     if (err) {
                         console.log(err);
                     }
                     console.log(`The JSON data file for ${queryObj.data} was saved!`);
                 });
 
-                res.sendFile(homeDIR + '/views/results.html', function(err) {
+                res.sendFile(__dirname + '/views/results.html', function(err) {
                     if (err) {
                         console.log('ERROR in transmission');
                         res.status(err.status).end();

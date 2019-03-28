@@ -1,9 +1,7 @@
 // main controller - used to control index.html
 // client-side
 
-// './scripts/localIonSound.js'
-
-require(['require', './scripts/localResponsiveVoice.js'], function(r) {
+require(['require', './scripts/localResponsiveVoice.js', './scripts/keyboardButtonMapping.js'], function(r) {
     console.log("Reached: Main Controller");
 });
 
@@ -14,6 +12,7 @@ var flag_recording = false; // true when recording
 var final_transcript = '';
 Synth instanceof AudioSynth; // audio object 
 var piano = Synth.createInstrument('piano');
+var recog;
 
 // TTS constants
 const optionsTTS = {
@@ -34,7 +33,7 @@ if (!('webkitSpeechRecognition' in window)) {
     console.log("ERROR: No webkitSpeechRecognition... need to upgrade");
 } else {
 
-    var recog = new webkitSpeechRecognition();
+    recog = new webkitSpeechRecognition();
     recog.continuous = true; // keeps recording when user not speaking
     recog.interimResults = true; // real-time STT results
 
@@ -45,7 +44,7 @@ if (!('webkitSpeechRecognition' in window)) {
         console.log("Started STT");
 
         // add bkgd recording color
-        changeBkgd("green");
+        changeBkgd("blue");
     }
 
     recog.onresult = function(event) {
@@ -78,7 +77,7 @@ if (!('webkitSpeechRecognition' in window)) {
         setFormValue(final_transcript, 'black');
 
         // remove bkgd recording color
-        changeBkgd("white");
+        changeBkgd("black");
     }
 
 }
@@ -86,9 +85,7 @@ if (!('webkitSpeechRecognition' in window)) {
 /* ----- Local Functions ----- */
 
 function changeBkgd(color) {
-    var form = document.getElementById("formDiv");
-    form.style.backgroundColor = color;
-    document.body.style.backgroundColor = color;
+    document.body.style['background'] = color;
 }
 
 function setFormValue(txt, color) {
@@ -188,69 +185,3 @@ function buttonRequest(buttonObject) {
             console.log("Invalid Button... ID:", buttonObject.id);
     }
 }
-
-
-/* ----- Key Binding - Keyboard ----- */
-
-var keyMap = {
-    "LEFT": 52,
-    "UP": 56,
-    "RIGHT": 54,
-    "DOWN": 50,
-    "REPEAT": 53,
-    "LOCATION": 48,
-    "HOME": 55,
-    "STOP": 49
-}
-
-// This event maps keyboard buttons to buttonObject requests
-// does not include volume control
-$(document).keypress(function(e) {
-
-    var keyObject = {
-        active: false,
-        duration: 1,
-        id: ""
-    };
-
-    switch (e.which) {
-        case keyMap["LEFT"]: // left - 4
-            keyObject.id = "Y";
-            break;
-
-        case keyMap["UP"]: // up - 8
-            keyObject.id = "X";
-            break;
-
-        case keyMap["RIGHT"]: // right - 6
-            keyObject.id = "A";
-            break;
-
-        case keyMap["DOWN"]: // down - 2
-            keyObject.id = "B";
-            break;
-
-        case keyMap["REPEAT"]: // Repeat Tile - 5
-            keyObject.id = "RT";
-            break;
-
-        case keyMap["LOCATION"]: // User Location - 0
-            keyObject.id = "R";
-            break;
-
-        case keyMap["HOME"]: // Home - 7
-            keyObject.id = "HOME";
-            break;
-
-        case keyMap["STOP"]: // Stop TTS - 1
-            keyObject.id = "PLUS";
-            break;
-
-        default:
-            return; // exit this handler for other keys
-    }
-    e.preventDefault(); // prevent the default action (scroll / move caret)
-
-    buttonRequest(keyObject);
-
-});

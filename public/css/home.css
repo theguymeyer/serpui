@@ -1,9 +1,7 @@
 /* Tag Names */
-html, body, .field {
-	height: 95%; 
-	width: 95%; 
-	margin: 1%; 
-	background: white;
+body {
+	margin: 2%; 
+	background: black;
 }
 
 form {
@@ -25,14 +23,12 @@ input {
 }
 */
 
-
 /* ID Names */
 #submitBtn {
 	font-size: large;
 	height: 10vh;
 	background-color: red;
 	width: inherit;
-
 }
 
 #formDiv {
