@@ -99,13 +99,13 @@ function setFormValue(txt, color) {
 
 function Start() { // start recording
     recog.start();
-    piano.play('C', 2, 1);
+    piano.play('G', 3, 1);
 }
 
 function Stop() { // stop recording
     final_transcript = final_transcript + " "; // prep for more text
     recog.stop();
-    piano.play('G', 3, 1);
+    piano.play('C', 3, 1);
 }
 
 function Clear() { // clear recording buffer
@@ -127,6 +127,11 @@ function Submit() {
         TTS("Cannot Submit Empty Query");
         Clear(); // clear any false positives
     }
+}
+
+// silences TTS
+function quiet() {
+    TTS('');
 }
 
 // Disables all buttons and explains what a pressed button does
