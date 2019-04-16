@@ -3,6 +3,7 @@
 
 require(['require', './scripts/localResponsiveVoice.js', './scripts/keyboardButtonMapping.js'], function(r) {
     console.log("Reached: Main Controller");
+    TTS("Home Page");
 });
 
 /* Variables */
@@ -115,11 +116,15 @@ function Clear() { // clear recording buffer
 }
 
 function ClarifySTT() { // read back recording buffer
-    TTS(final_transcript);
+    if (isQueryEmpty()) {
+        TTS(final_transcript);
+    } else {
+        TTS("Empty Query");
+    }
 }
 
 function Submit() {
-    if (_.trim(final_transcript) != "") {
+    if (isQueryEmpty()) {
         // dont submit empty query
         var subBtn = document.getElementById("submitBtn");
         subBtn.click();
@@ -129,10 +134,10 @@ function Submit() {
     }
 }
 
-// silences TTS
-function quiet() {
-    TTS('');
+function isQueryEmpty() {
+    return _.trim(final_transcript) != "";
 }
+
 
 // Disables all buttons and explains what a pressed button does
 // function helpMe() {
@@ -151,7 +156,7 @@ function buttonRequest(buttonObject) {
 
     switch (buttonID) {
         case "A": // submit - RIGHT
-            Submit();
+            (flag_recording) ? null: Submit();
             break;
         case "X": // Start Recording - UP
             (!flag_recording) ? Start(): console.log('Not Recording (Press DOWN)...');
@@ -162,17 +167,17 @@ function buttonRequest(buttonObject) {
             flag_recording = false;
             break;
         case "Y": // clear buffer - LEFT
-            Clear();
+            (flag_recording) ? null: Clear();
             break;
         case "R": // unused 
-            TTS("Home Page. Press up to record a query");
+            (flag_recording) ? TTS("I'm listening! Press down to submit your query"): TTS("Home Page. Press up to record a query");
             break;
         case "RA": // Joystick - Helper Mode
             console.log("TODO: Key Helper Function");
             // helpMe(); 
             break;
         case "RT": // Repeat current STT buffer text 
-            (!flag_recording) ? ClarifySTT(): TTS("Press Stop (B Button)");
+            (!flag_recording) ? ClarifySTT(): TTS("Press down to stop recording");
             break;
         case "RSR": // + 5%
             changeVolume("up", optionsTTS);

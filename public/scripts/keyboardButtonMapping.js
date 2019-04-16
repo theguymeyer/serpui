@@ -11,7 +11,8 @@ var keyMap = {
     "REPEAT": 16, // shift
     "LOCATION": 32, // space 
     "HOME": 17, // ctrl
-    "STOP": 27 // esc
+    "STOP-esc": 27, // escs
+    "STOP-alt": 18 // alt
 }
 
 // This event maps keyboard buttons to buttonObject requests
@@ -27,6 +28,8 @@ function pressedKey(e) {
         duration: 1,
         id: ""
     };
+
+    console.log(e.keyCode);
 
     switch (e.keyCode) {
         case keyMap["LEFT"]: // left - 4
@@ -57,7 +60,8 @@ function pressedKey(e) {
             keyObject.id = "HOME";
             break;
 
-        case keyMap["STOP"]: // Stop TTS - 1
+        case keyMap["STOP-esc"]: // Stop TTS - 1
+        case keyMap["STOP-alt"]:
             keyObject.id = "PLUS";
             break;
 

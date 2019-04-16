@@ -95,7 +95,7 @@ module.exports = function(app) {
 
         read(req.body.url, function(err, article, response) {
 
-            // console.log('article', article);
+            console.log('article', article);
 
             if (!(article.content)) {
                 res.send("Incompatible Site");
