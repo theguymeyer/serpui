@@ -1,0 +1,786 @@
+App Started! /var/www/html/serpui/public
+/home
+/home
+/home
+https://en.wikipedia.org/wiki/Domain-specific_language
+https://stackoverflow.com/questions/809574/what-is-domain-specific-language-anybody-using-it-and-in-what-way
+https://www.javaworld.com/article/2077865/core-java-creating-dsls-in-java-part-1-what-is-a-domain-specific-language.html
+https://searchmicroservices.techtarget.com/definition/domain-specific-language-DSL
+https://www.martinfowler.com/books/dsl.html
+https://www.quora.com/What-is-a-DSL-domain-specific-language-How-does-it-differ-from-the-other-programming-languages
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://stackoverflow.com/questions/809574/what-is-domain-specific-language-anybody-using-it-and-in-what-way',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+https://proandroiddev.com/writing-dsls-in-kotlin-part-1-7f5d2193f277
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base: 'https://www.martinfowler.com/books/dsl.html',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+https://tomassetti.me/domain-specific-languages/
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base: 'https://en.wikipedia.org/wiki/Domain-specific_language',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+http://dsl-course.org/
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://www.javaworld.com/article/2077865/core-java-creating-dsls-in-java-part-1-what-is-a-domain-specific-language.html',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://searchmicroservices.techtarget.com/definition/domain-specific-language-DSL',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base: 'http://dsl-course.org/',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base: 'https://tomassetti.me/domain-specific-languages/',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://proandroiddev.com/writing-dsls-in-kotlin-part-1-7f5d2193f277',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://www.quora.com/What-is-a-DSL-domain-specific-language-How-does-it-differ-from-the-other-programming-languages',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+/home
+/home
+/home
+/home
+App Started! /var/www/html/serpui/public
+App Started! /var/www/html/serpui/public
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/results
+The JSON data file for  was saved!
+/home
+/home
+/results
+The JSON data file for  was saved!
+/home
+/results
+The JSON data file for  was saved!
+/home
+/home
+/results
+The JSON data file for  was saved!
+/home
+/home
+/home
+/home
+/home
+/results
+The JSON data file for  was saved!
+/home
+/home
+/results
+The JSON data file for what is venture capitalism was saved!
+https://www.investopedia.com/terms/v/venturecapitalist.asp
+https://en.wikipedia.org/wiki/Venture_capital
+https://www.investopedia.com/video/play/who-are-venture-capitalists/
+https://www.forbes.com/sites/georgedeeb/2016/07/18/what-exactly-is-venture-capital/
+https://hbr.org/1998/11/how-venture-capital-works
+https://www.thebalancesmb.com/what-is-a-venture-capitalist-2947071
+http://www.businessdictionary.com/definition/venture-capital.html
+https://economictimes.indiatimes.com/definition/Venture-Capital
+/home
+/home

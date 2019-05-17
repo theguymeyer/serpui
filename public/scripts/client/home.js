@@ -4,6 +4,10 @@
 require(['require', './scripts/localResponsiveVoice.js', './scripts/keyboardButtonMapping.js'], function(r) {
     console.log("Reached: Main Controller");
     TTS("Home Page");
+
+    document.getElementById('txtEntry').focus();
+    document.getElementById('txtEntry').select();
+
 });
 
 /* Variables */
@@ -116,15 +120,15 @@ function Clear() { // clear recording buffer
 }
 
 function ClarifySTT() { // read back recording buffer
-    if (isQueryEmpty()) {
-        TTS(final_transcript);
+    if (!(isTextFieldEmpty())) {
+        TTS(getTextFieldValue());
     } else {
         TTS("Empty Query");
     }
 }
 
 function Submit() {
-    if (isQueryEmpty()) {
+    if (isTextFieldEmpty()) {
         // dont submit empty query
         var subBtn = document.getElementById("submitBtn");
         subBtn.click();
@@ -134,10 +138,13 @@ function Submit() {
     }
 }
 
-function isQueryEmpty() {
-    return _.trim(final_transcript) != "";
+function getTextFieldValue() {
+    return document.getElementById('txtEntry').value;
 }
 
+function isTextFieldEmpty() {
+    return getTextFieldValue() == "";
+}
 
 // Disables all buttons and explains what a pressed button does
 // function helpMe() {

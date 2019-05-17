@@ -7,6 +7,7 @@
 var read = require('node-read');
 var striptags = require('striptags');
 
+// this function is unused since its done in routes.js
 async function getHTMLContent(url) {
 
     await read(url, function(err, article, res) {

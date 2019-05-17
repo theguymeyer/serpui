@@ -56,7 +56,7 @@ module.exports = function(app) {
             var queryObj = new Object({
                 data: req.body.userQuery
             });
-            console.log(queryObj);
+            //console.log(queryObj);
 
             // createQuery() exported from /scripts/getGoogleResultsJSON.js
             createQuery(queryObj.data).then(q => {
@@ -90,25 +90,25 @@ module.exports = function(app) {
 
     });
 
+    // POST request external site content
     app.post('/externalSite', (req, res) => {
         console.log(req.body.url);
 
         read(req.body.url, function(err, article, response) {
 
-            console.log('article', article);
+            //console.log('article', article);
 
-            if (!(article.content)) {
+            if (!(article)) {
+                res.send("No Site Found");
+            } else if (!(article.content)) {
                 res.send("Incompatible Site");
-            } else {
-
-                // console.log(striptags(article.content));
-
+            } else { // return contents
                 var contentResponse = article.title + '\n\n' + striptags(article.content);
                 res.send(contentResponse);
             }
 
         })
 
-    })
+    });
 
 };

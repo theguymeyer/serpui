@@ -123,6 +123,7 @@ var myHapticActuators;
 
         // check if gamepads are still present
         if (seenGamepad) {
+            console.log("New Frame Request");
             window.requestAnimationFrame(pollGamepads);
         }
     }

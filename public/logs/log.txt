@@ -1,0 +1,1424 @@
+App Started! /var/www/html/serpui/public
+/home
+/home
+App Started! /var/www/html/serpui/public
+Tue May  7 15:40:02 EDT 2019
+App Started! /var/www/html/serpui/public
+Tue May  7 15:43:26 EDT 2019
+App Started! /var/www/html/serpui/public
+
+
+Tue May  7 15:44:01 EDT 2019
+App Started! /var/www/html/serpui/public
+
+
+Tue May  7 15:44:20 EDT 2019
+App Started! /var/www/html/serpui/public
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+/home
+{ data: 'DSL programming ' }
+/results
+The JSON data file for DSL programming  was saved!
+https://en.wikipedia.org/wiki/Domain-specific_language
+https://stackoverflow.com/questions/809574/what-is-domain-specific-language-anybody-using-it-and-in-what-way
+https://www.martinfowler.com/books/dsl.html
+https://www.javaworld.com/article/2077865/core-java-creating-dsls-in-java-part-1-what-is-a-domain-specific-language.html
+https://www.quora.com/What-is-a-DSL-domain-specific-language-How-does-it-differ-from-the-other-programming-languages
+https://searchmicroservices.techtarget.com/definition/domain-specific-language-DSL
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://stackoverflow.com/questions/809574/what-is-domain-specific-language-anybody-using-it-and-in-what-way',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+https://proandroiddev.com/writing-dsls-in-kotlin-part-1-7f5d2193f277
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base: 'https://www.martinfowler.com/books/dsl.html',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+https://tomassetti.me/domain-specific-languages/
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base: 'https://en.wikipedia.org/wiki/Domain-specific_language',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://www.javaworld.com/article/2077865/core-java-creating-dsls-in-java-part-1-what-is-a-domain-specific-language.html',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+http://dsl-course.org/
+https://softwareengineering.stackexchange.com/questions/62727/when-is-it-reasonable-to-create-my-own-programming-language
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://softwareengineering.stackexchange.com/questions/62727/when-is-it-reasonable-to-create-my-own-programming-language',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://searchmicroservices.techtarget.com/definition/domain-specific-language-DSL',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base: 'https://tomassetti.me/domain-specific-languages/',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://www.quora.com/What-is-a-DSL-domain-specific-language-How-does-it-differ-from-the-other-programming-languages',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base: 'http://dsl-course.org/',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://proandroiddev.com/writing-dsls-in-kotlin-part-1-7f5d2193f277',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+/home
+/home
+/home
+/home
+/home
+{ data: 'Population of Philadelphia' }
+/results
+The JSON data file for Population of Philadelphia was saved!
+http://worldpopulationreview.com/us-cities/philadelphia-population/
+https://www.census.gov/quickfacts/philadelphiacitypennsylvania
+https://en.wikipedia.org/wiki/Philadelphia
+https://www.phillymag.com/citified/2015/09/22/philadelphia-segregated-big-city/
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'http://worldpopulationreview.com/us-cities/philadelphia-population/',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+https://www.philly.com/philly/news/philadelphia-population-census-data-20180322.html-2
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base: 'https://en.wikipedia.org/wiki/Philadelphia',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+http://www.thedp.com/article/2019/04/philadelphia-population-census-millennial-university-college
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://www.philly.com/philly/news/philadelphia-population-census-data-20180322.html-2',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+https://uspopulation2019.com/population-of-philadelphia-2019.html
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://www.phillymag.com/citified/2015/09/22/philadelphia-segregated-big-city/',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+https://www.philly.com/news/a/philadelphia-population-growth-census-south-jersey-20190418.html
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://www.philly.com/news/a/philadelphia-population-growth-census-south-jersey-20190418.html',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://www.census.gov/quickfacts/philadelphiacitypennsylvania',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+http://www.city-data.com/city/Philadelphia-Pennsylvania.html
+http://usapopulation2018.com/population-of-philadelphia-2018.html
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'http://www.thedp.com/article/2019/04/philadelphia-population-census-millennial-university-college',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'http://www.city-data.com/city/Philadelphia-Pennsylvania.html',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'https://uspopulation2019.com/population-of-philadelphia-2019.html',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+article Article {
+  '$':
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  originalDOM:
+   { [Function: initialize]
+     fn:
+      initialize { constructor: [Circular], _originalRoot: [Object] },
+     load: [Function],
+     html: [Function],
+     xml: [Function],
+     text: [Function],
+     parseHTML: [Function],
+     root: [Function],
+     contains: [Function],
+     _root:
+      { type: 'root',
+        name: 'root',
+        attribs: {},
+        children: [Array],
+        next: null,
+        prev: null,
+        parent: null },
+     _options:
+      { normalizeWhitespace: true,
+        decodeEntities: false,
+        withDomLvl1: true,
+        xmlMode: false } },
+  cache: {},
+  base:
+   'http://usapopulation2018.com/population-of-philadelphia-2018.html',
+  options:
+   { considerDIVs: true,
+     nodesToRemove: 'meta,iframe,noscript,style,aside,object,script',
+     maxRedirects: 10,
+     headers:
+      { 'user-agent': 'FetchStream',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'accept-encoding': 'gzip, deflate' },
+     maxResponseLength: Infinity,
+     method: 'GET',
+     rejectUnauthorized: true },
+  content: [Getter],
+  title: [Getter],
+  html: [Getter],
+  dom: [Getter] }
+/home
+{ data: '' }
+{ data: '' }
+/results
+The JSON data file for  was saved!
+/results
+The JSON data file for  was saved!

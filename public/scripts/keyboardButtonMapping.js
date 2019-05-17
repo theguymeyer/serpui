@@ -9,10 +9,10 @@ var keyMap = {
     "RIGHT": 39,
     "DOWN": 40,
     "REPEAT": 16, // shift
-    "LOCATION": 32, // space 
-    "HOME": 17, // ctrl
-    "STOP-esc": 27, // escs
-    "STOP-alt": 18 // alt
+    "LOCATION": 191, //? button (/) //32, // space 
+    "HOME": 27, // escs
+    "STOP-ctrl": 17, // ctrl
+    "HELP": 18 // alt
 }
 
 // This event maps keyboard buttons to buttonObject requests
@@ -60,10 +60,12 @@ function pressedKey(e) {
             keyObject.id = "HOME";
             break;
 
-        case keyMap["STOP-esc"]: // Stop TTS - 1
-        case keyMap["STOP-alt"]:
+        case keyMap["STOP-ctrl"]: // Stop TTS - 1
             keyObject.id = "PLUS";
             break;
+
+            // HELP FUNCTION - alt key
+            //case keyMap["HELP"]: // HELP
 
         default:
             return; // exit this handler for other keys
