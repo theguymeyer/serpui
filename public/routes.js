@@ -4,6 +4,8 @@ module.exports = function(app) {
 
     /* Constant and Imports */
 
+    let d = new Date();
+
     // const homeDIR = '/var/www/html/serpui/public';
 
     // npm imports
@@ -37,7 +39,7 @@ module.exports = function(app) {
                 res.status(err.status).end();
             }
         });
-        console.log('/home');
+        console.log('/home', '\t', d);
 
     });
 

@@ -128,7 +128,9 @@ function ClarifySTT() { // read back recording buffer
 }
 
 function Submit() {
-    if (isTextFieldEmpty()) {
+	console.log(getTextFieldValue(), "Text Field value");
+
+    if (!(isTextFieldEmpty())) {
         // dont submit empty query
         var subBtn = document.getElementById("submitBtn");
         subBtn.click();
@@ -143,7 +145,7 @@ function getTextFieldValue() {
 }
 
 function isTextFieldEmpty() {
-    return getTextFieldValue() == "";
+    return $.trim(getTextFieldValue()) == "";
 }
 
 // Disables all buttons and explains what a pressed button does

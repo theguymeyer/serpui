@@ -3,6 +3,7 @@
 printf "\n\n"
 
 date
-nohup node app.js
+forever start -a -o ./logs/log.txt app.js
+#nohup node app.js
 
 printf "\n\n"
