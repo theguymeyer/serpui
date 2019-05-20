@@ -25,3 +25,152 @@ https://lyrics.fandom.com/wiki/Leon_Bridges:Mrs.
 
 App Started! /var/www/html/serpui/public
 /home 	 2019-05-18T19:41:43.162Z
+/home 	 2019-05-18T19:41:43.162Z
+/home 	 2019-05-18T19:41:43.162Z
+/results
+The JSON data file for  Fast and Furious cast was saved!
+https://www.imdb.com/list/ls060605953/
+https://en.wikipedia.org/wiki/Furious_7
+https://www.digitalspy.com/movies/a832625/fast-and-furious-9-10-cast-plot-trailer-release-date/
+https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)
+https://www.ranker.com/list/full-cast-of-fast-and-furious-actors-and-actresses/reference
+https://en.wikipedia.org/wiki/The_Fate_of_the_Furious
+https://people.com/movies/fast-and-furious-where-are-they-now/
+/results
+The JSON data file for  Fast and Furious cast was saved!
+https://www.imdb.com/list/ls060605953/
+https://en.wikipedia.org/wiki/Furious_7
+https://www.digitalspy.com/movies/a832625/fast-and-furious-9-10-cast-plot-trailer-release-date/
+https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)
+https://www.ranker.com/list/full-cast-of-fast-and-furious-actors-and-actresses/reference
+https://en.wikipedia.org/wiki/The_Fate_of_the_Furious
+https://people.com/movies/fast-and-furious-where-are-they-now/
+/results
+The JSON data file for  Fast and Furious cast was saved!
+/results
+The JSON data file for  Fast and Furious cast was saved!
+https://www.imdb.com/list/ls060605953/
+https://en.wikipedia.org/wiki/Furious_7
+https://www.digitalspy.com/movies/a832625/fast-and-furious-9-10-cast-plot-trailer-release-date/
+https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)
+https://www.ranker.com/list/full-cast-of-fast-and-furious-actors-and-actresses/reference
+https://en.wikipedia.org/wiki/The_Fate_of_the_Furious
+https://people.com/movies/fast-and-furious-where-are-they-now/
+
+
+ 2019-05-19T23:02:22.243Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:02:21.835Z
+/home 	 2019-05-19T23:02:21.835Z
+
+
+ 2019-05-19T23:07:50.340Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:07:49.928Z
+
+
+ 2019-05-19T23:08:41.422Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:08:41.015Z
+
+
+ 2019-05-19T23:26:11.668Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:26:11.264Z
+/home 	 2019-05-19T23:26:11.264Z
+
+
+ 2019-05-19T23:29:19.321Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:29:18.921Z
+
+
+ 2019-05-19T23:33:17.033Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:33:16.634Z
+
+
+ 2019-05-19T23:34:59.012Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:34:58.607Z
+
+
+ 2019-05-19T23:36:16.339Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:36:15.939Z
+
+
+ 2019-05-19T23:38:01.381Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:38:00.972Z
+
+
+ 2019-05-19T23:48:52.005Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:48:51.604Z
+
+
+ 2019-05-19T23:51:35.097Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-05-19T23:51:34.693Z
+/results
+The JSON data file for  how big is the White House was saved!
+https://www.whitehousehistory.org/questions/how-big-is-the-white-house
+https://en.wikipedia.org/wiki/White_House
+https://www.politico.com/gallery/a-look-inside-the-white-house
+https://en.wikipedia.org/wiki/Executive_Residence
+https://www.businessinsider.com/white-house-facts-rooms-2018-2
+https://www.whitehouse.gov/about-the-white-house/the-white-house/
+https://www.movoto.com/blog/novelty-real-estate/white-house-for-sale-infographic-2/
+https://www.axios.com/white-house-reaction-trump-private-schedules-leak-a0c23dc5-ad34-47f5-830f-1bc496398cc2.html
+https://www.cnn.com/2019/01/18/politics/donald-trump-nancy-pelosi-afghanistan/index.html
+/home 	 2019-05-19T23:51:34.693Z
+/home 	 2019-05-19T23:51:34.693Z
+/results
+The JSON data file for  what is shared memory was saved!
+https://en.wikipedia.org/wiki/Shared_memory
+https://www.geeksforgeeks.org/ipc-shared-memory/
+https://www.techopedia.com/definition/13279/shared-memory
+https://whatis.techtarget.com/definition/shared-memory
+https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_shared_memory.htm
+https://www.ibm.com/support/knowledgecenter/en/SSGU8G_14.1.0/com.ibm.admin.doc/ids_admin_0340.htm
+https://www.boost.org/doc/libs/1_55_0/doc/html/interprocess/sharedmemorybetweenprocesses.html
+https://www.tutorialspoint.com/shared-memory-model-of-process-communication
+https://developer.android.com/reference/android/os/SharedMemory
+/home 	 2019-05-19T23:51:34.693Z
+/results
+The JSON data file for   introduction to algorithms  was saved!
+https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844
+https://mitpress.mit.edu/books/introduction-algorithms-third-edition
+https://en.wikipedia.org/wiki/Introduction_to_Algorithms
+http://web.karabuk.edu.tr/hakankutucu/CME222/MIT[1].Press.Introduction.to.Algorithms.2nd.Edition.eBook-TLFeBOOK.pdf
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/
+https://www.udacity.com/course/intro-to-algorithms--cs215
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/
+https://www.khanacademy.org/computing/computer-science/algorithms
+/home 	 2019-05-19T23:51:34.693Z
+/home 	 2019-05-19T23:51:34.693Z
+/home 	 2019-05-19T23:51:34.693Z
+/home 	 2019-05-19T23:51:34.693Z

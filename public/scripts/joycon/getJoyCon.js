@@ -65,15 +65,18 @@ var myHapticActuators;
         let seenGamepad = false;
 
         let gamepads = navigator.getGamepads ? navigator.getGamepads() : [];
+
         let gamepadArray = [];
         for (let i = 0; i < gamepads.length; i++) {
-            gamepadArray.push(gamepads[0]);
-        }
+        	if (!!gamepads[i]) {
+			gamepadArray.push(gamepads[i]);	// mistake? iterating variable set to 0
+        	}
+	}
+
         let orderedGamepads = [];
-        orderedGamepads.push(gamepadArray.find(g => g.id.indexOf('Wireless Gamepad')));
+        orderedGamepads.push(gamepadArray.find(g => g.id.includes('Wireless Gamepad')));	// Noteable issue: use .includes NOT .indexOf
         //orderedGamepads.push(gamepadArray.find(g => g.id.indexOf('Joy-Con (L)') > -1)); // no need for left controller
         let pressedButtons = [];
-
 
         for (let g = 0; g < orderedGamepads.length; g++) {
 
@@ -104,7 +107,7 @@ var myHapticActuators;
                         // lastButtonPress no longer pressed but still labeled as 'active'
 
                         lastButtonPress.active = false;
-                        buttonRequest(lastButtonPress);
+                        buttonRequest(lastButtonPress);	// external function call
 
                     }
 
@@ -123,7 +126,6 @@ var myHapticActuators;
 
         // check if gamepads are still present
         if (seenGamepad) {
-            console.log("New Frame Request");
             window.requestAnimationFrame(pollGamepads);
         }
     }
