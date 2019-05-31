@@ -33,6 +33,8 @@ const colourScheme = {
     borderText: "white",
     activeBkgd: "#cbb4a9",
     activeText: "black",
+    neutralBkgd: "black",
+    neutralText: "white",
 }
 
 
@@ -127,7 +129,7 @@ function planSERP() { // user is global
 
 // implements the plan ( planSERP() )
 //      Input: Serp Plan to be implemented
-//      Output: GUI
+//      Output: SerpUI
 function drawSERP(tilesData) {
 
     // assignment order: neutral -> up -> left -> down -> right
@@ -157,7 +159,10 @@ function drawSERP(tilesData) {
             if (tilesData[i] == borderTEXT || tilesData[i] == (user.resultPos + 1)) {
                 currButton.style.background = colourScheme.borderBkgd;
                 currButton.style.color = colourScheme.borderText;
-            } else {
+            } else if (elementIDs[i] == 'neutralButton') {
+		currButton.style.background = colourScheme.neutralBkgd;
+		currButton.style.color = colourScheme.neutralText;
+	    } else {
                 currButton.style.background = colourScheme.activeBkgd;
                 currButton.style.color = colourScheme.activeText;
             }

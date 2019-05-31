@@ -128,7 +128,7 @@ function ClarifySTT() { // read back recording buffer
 }
 
 function Submit() {
-	console.log(getTextFieldValue(), "Text Field value");
+    console.log(getTextFieldValue(), "Text Field value");
 
     if (!(isTextFieldEmpty())) {
         // dont submit empty query
@@ -178,7 +178,7 @@ function buttonRequest(buttonObject) {
         case "Y": // clear buffer - LEFT
             (flag_recording) ? null: Clear();
             break;
-        case "R": // unused 
+        case "R": // location 
             (flag_recording) ? TTS("I'm listening! Press down to submit your query"): TTS("Home Page. Press up to record a query");
             break;
         case "RA": // Joystick - Helper Mode

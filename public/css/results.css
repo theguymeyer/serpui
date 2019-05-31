@@ -51,5 +51,7 @@ button {
 #neutralButton {
 	width: 80%;
 	overflow: hidden;
+	background: black;
+	color: white;
 }
 
