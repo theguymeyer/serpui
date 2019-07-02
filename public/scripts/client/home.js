@@ -3,7 +3,8 @@
 
 require(['require', './scripts/localResponsiveVoice.js', './scripts/keyboardButtonMapping.js'], function(r) {
     console.log("Reached: Main Controller");
-    TTS("Home Page");
+    $.when(TTS("")).then(TTS("Homepage. Press Up to Record a Query"));
+    //TTS("Home Page");
 
     document.getElementById('txtEntry').focus();
     document.getElementById('txtEntry').select();
@@ -120,7 +121,7 @@ function Clear() { // clear recording buffer
 }
 
 function ClarifySTT() { // read back recording buffer
-    if (!(isTextFieldEmpty())) {
+    if (!(textFieldEmpty())) {
         TTS(getTextFieldValue());
     } else {
         TTS("Empty Query");
@@ -130,13 +131,16 @@ function ClarifySTT() { // read back recording buffer
 function Submit() {
     console.log(getTextFieldValue(), "Text Field value");
 
-    if (!(isTextFieldEmpty())) {
-        // dont submit empty query
+    if (textFieldEmpty()) {
+        TTS("Cannot Submit Empty Query");
+        //Clear(); // clear any false positives
+
+	return false;
+    } else {
         var subBtn = document.getElementById("submitBtn");
         subBtn.click();
-    } else {
-        TTS("Cannot Submit Empty Query");
-        Clear(); // clear any false positives
+
+	return true;
     }
 }
 
@@ -144,7 +148,11 @@ function getTextFieldValue() {
     return document.getElementById('txtEntry').value;
 }
 
-function isTextFieldEmpty() {
+function textFieldEmpty() {
+    /*
+	return true if empty (yes)
+    */
+
     return $.trim(getTextFieldValue()) == "";
 }
 

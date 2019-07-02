@@ -23,7 +23,7 @@ function SEResult(data, pos) {
         position: this.pos
     };
 
-    this.tileContentPos = [ // Content Position - Basic Info
+    this.tileContentPos = [ // Content Headings - Search Engines
         "position",
         "title",
         "displayLink",

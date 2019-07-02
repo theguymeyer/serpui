@@ -4,6 +4,10 @@ body {
 	background: black;
 }
 
+field {
+	display: table;
+}
+
 form {
 	height: inherit;
 	width: 100%;
@@ -33,4 +37,21 @@ input {
 
 #formDiv {
 	height: 50vh;
+	width: 70%;
+	display: table-cell;
+}
+
+#helper {
+	width: 25%;
+	background-color: black;
+	color: white;
+	display: table-cell;
+	padding: 1%;
+	vertical-align: top;
+}
+
+td, th {
+	border: 2px solid white;
+	padding: 1%;
+	text-align: left;
 }

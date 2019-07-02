@@ -146,7 +146,9 @@ function drawSERP(tilesData) {
 
             // embed iframe for video
             currButton.innerHTML = '<iframe id="yt_player_iframe" width="100%" height="100%" src="//www.youtube.com/embed/' + myId +
-                `?autoplay=${(i == 0) ? 1 : 0}&enablejsapi=1" frameborder="0" allowscriptaccess="always" allowfullscreen></iframe>`;
+                `?autoplay=1&enablejsapi=1" frameborder="0" allowscriptaccess="always" allow="autoplay" allowfullscreen></iframe>`;
+            //currButton.innerHTML = '<iframe id="yt_player_iframe" width="100%" height="100%" src="//www.youtube.com/embed/' + myId +
+//                `?autoplay=${(i == 0) ? 1 : 0}&enablejsapi=1" frameborder="0" allowscriptaccess="always" allowfullscreen></iframe>`;
 
             // enlarge video content to fit Tile
             var spanChild = document.getElementById('neutralButton').children[0]

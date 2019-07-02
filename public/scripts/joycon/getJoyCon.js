@@ -30,12 +30,12 @@ var myHapticActuators;
         3: 'Y',
         4: 'RSL',
         5: 'RSR',
+	7: 'RT',
+	8: 'R',
         9: 'PLUS',
+	10: 'JS', //joystick
         11: 'RA',
-        12: 'HOME',
-        14: 'R',
-        15: 'RT',
-        16: 'LEFT',
+        16: 'HOME',
         17: 'DOWN',
         18: 'UP',
         19: 'RIGHT',
@@ -91,7 +91,7 @@ var myHapticActuators;
 
 
                         const id = (g * 15) + i + g;
-                        const button = buttonMapping[id] || id;
+                        const button = String(buttonMapping[id] || id);
                         pressedButtons.push(button);
 
                         // first time pressing button
