@@ -26,7 +26,7 @@ button {
 }
 
 .frontRow {
-	background: url("http://www.cas.mcmaster.ca/~meyerg/ottoUI/res/frame.png") no-repeat;
+	background: url("http://www.cas.mcmaster.ca/~meyerg/res/wixpage_qr_code.png") no-repeat;
 	background-size: contain;
 	background-position: top right 1%;
 }

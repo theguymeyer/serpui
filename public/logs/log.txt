@@ -1554,3 +1554,1107 @@ App Started! /var/www/html/serpui/public
 
 App Started! /var/www/html/serpui/public
 /home 	 2019-07-02T22:30:04.195Z
+
+
+ 2019-07-02T22:32:55.835Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-07-02T22:32:55.425Z
+
+
+ 2019-07-02T22:34:25.010Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-07-02T22:34:24.605Z
+/home 	 2019-07-02T22:34:24.605Z
+/home 	 2019-07-02T22:34:24.605Z
+/home 	 2019-07-02T22:34:24.605Z
+/home 	 2019-07-02T22:34:24.605Z
+
+
+ 2019-07-02T22:38:09.199Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-07-02T22:38:08.796Z
+/home 	 2019-07-02T22:38:08.796Z
+
+
+ 2019-07-02T22:38:33.916Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-07-02T22:38:33.506Z
+/home 	 2019-07-02T22:38:33.506Z
+/home 	 2019-07-02T22:38:33.506Z
+/home 	 2019-07-02T22:38:33.506Z
+
+
+ 2019-07-02T22:48:34.412Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for What is love  was saved!
+https://www.psychologytoday.com/us/blog/love-without-limits/201111/what-is-love-and-what-isnt
+https://www.eharmony.com/what-is-love/
+https://time.com/4225777/meaning-of-love/
+https://en.wikipedia.org/wiki/What_Is_Love
+https://www.theschooloflife.com/thebookoflife/what-is-love/
+https://www.goodtherapy.org/blog/psychpedia/love
+https://www.chabad.org/library/article_cdo/aid/1577531/jewish/What-Is-Love.htm
+https://ideapod.com/what-is-love/
+https://www.huffpost.com/entry/the-meaning-of-true-love_n_564e30f7e4b031745cf07c87
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for  hello was saved!
+https://hello.com/
+https://www.hellomagazine.com/
+https://en.wikipedia.org/wiki/Hello_(Adele_song)
+https://www.hellomagazine.com/us/
+https://www.hello-products.com/
+https://en.wiktionary.org/wiki/hello
+https://www.sanrio.com/
+https://www.hellodesign.com/
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for YouTube  was saved!
+https://www.youtube.com/
+https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ
+https://play.google.com/store/apps/details?id=com.google.android.youtube
+https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+https://en.wikipedia.org/wiki/YouTube
+https://youtube.googleblog.com/2019/06/our-ongoing-work-to-tackle-hate.html
+https://support.google.com/youtube/answer/2474026?hl=en
+https://twitter.com/youtube?lang=en
+https://apps.apple.com/us/app/youtube-watch-listen-stream/id544007664
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for  YouTube was saved!
+https://www.youtube.com/
+https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ
+https://play.google.com/store/apps/details?id=com.google.android.youtube
+https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+https://en.wikipedia.org/wiki/YouTube
+https://youtube.googleblog.com/2019/06/our-ongoing-work-to-tackle-hate.html
+https://support.google.com/youtube/answer/2474026?hl=en
+https://twitter.com/youtube?lang=en
+https://apps.apple.com/us/app/youtube-watch-listen-stream/id544007664
+/results
+The JSON data file for  YouTube was saved!
+https://www.youtube.com/
+https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ
+https://play.google.com/store/apps/details?id=com.google.android.youtube
+https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+https://en.wikipedia.org/wiki/YouTube
+https://youtube.googleblog.com/2019/06/our-ongoing-work-to-tackle-hate.html
+https://support.google.com/youtube/answer/2474026?hl=en
+https://twitter.com/youtube?lang=en
+https://apps.apple.com/us/app/youtube-watch-listen-stream/id544007664
+/results
+The JSON data file for  YouTube was saved!
+https://www.youtube.com/
+https://www.youtube.com/channel/UCBR8-60-B28hp2BmDPdntcQ
+https://play.google.com/store/apps/details?id=com.google.android.youtube
+https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+https://en.wikipedia.org/wiki/YouTube
+https://youtube.googleblog.com/2019/06/our-ongoing-work-to-tackle-hate.html
+https://support.google.com/youtube/answer/2474026?hl=en
+https://twitter.com/youtube?lang=en
+https://apps.apple.com/us/app/youtube-watch-listen-stream/id544007664
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for  how to strikethrough Google Docs was saved!
+https://blog.hubspot.com/marketing/strikethrough-google-docs
+https://support.google.com/docs/answer/179738?co=GENIE.Platform%3DDesktop&hl=en
+https://webapps.stackexchange.com/questions/4672/a-faster-way-to-access-strikethrough-on-google-docs
+https://www.wordable.io/strikethrough-text-google-docs-shortcut/
+https://www.solveyourtech.com/add-strikethrough-google-docs/
+https://www.live2tech.com/how-to-draw-a-line-through-text-in-google-docs/
+https://techiestechguide.com/add-strikethrough-in-google-docs/
+/home 	 2019-07-02T22:48:34.011Z
+https://helloworld.mit.edu/
+https://open.spotify.com/album/22scumV3zHDU1GGRRHXZhg
+https://busyteacher.org/8070-how-to-teach-world-hello-day-november-21.html
+https://community.jamasoftware.com/blogs/jess-stetson/2017/09/26/expected-behavior-of-html-tags-in-jama-software
+http://blog.siriusxm.com/12-songs-to-say-hello-on-world-hello-day/
+https://speakerdeck.com/rdegges/hello-world-hello-hello
+http://news.mit.edu/2019/hello-world-hello-mit
+https://en.wikipedia.org/wiki/World_Hello_Day
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for pink floyd darkside of the moon was saved!
+https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon
+https://www.amazon.com/Dark-Side-Moon-Pink-Floyd/dp/B000002U82
+https://www.rollingstone.com/music/music-features/pink-floyds-dark-side-of-the-moon-10-things-you-didnt-know-201743/
+https://www.allmusic.com/album/the-dark-side-of-the-moon-mw0000191308
+https://ultimateclassicrock.com/dark-side-of-the-moon-track-by-track/
+https://genius.com/albums/Pink-floyd/The-dark-side-of-the-moon
+https://www.discogs.com/Pink-Floyd-The-Dark-Side-Of-The-Moon/master/10362
+https://shop.pinkfloyd.com/dept/the-dark-side-of-the-moon-merchandise?cp=84221_84308_84315
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for what songs are on dark side of the moon was saved!
+https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon
+https://ultimateclassicrock.com/dark-side-of-the-moon-track-by-track/
+https://genius.com/Pink-floyd-the-dark-side-of-the-moon-tracklist-artwork-annotated
+https://www.rollingstone.com/music/music-features/pink-floyds-dark-side-of-the-moon-10-things-you-didnt-know-201743/
+https://www.loudersound.com/features/every-song-on-pink-floyds-dark-side-of-the-moon-ranked-from-worst-to-best
+https://www.quora.com/Does-Pink-Floyd-have-a-song-named-Dark-Side-Of-The-Moon
+https://www.allmusic.com/album/the-dark-side-of-the-moon-mw0000191308
+https://www.reddit.com/r/pinkfloyd/comments/89xakm/whats_the_best_songs_on_dark_side_of_the_moon/
+https://www.amazon.com/Dark-Side-Moon-Pink-Floyd/dp/B000002U82
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for list of songs on dark side of the moon was saved!
+https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon
+https://genius.com/Pink-floyd-the-dark-side-of-the-moon-tracklist-artwork-annotated
+https://ultimateclassicrock.com/dark-side-of-the-moon-track-by-track/
+https://www.loudersound.com/features/every-song-on-pink-floyds-dark-side-of-the-moon-ranked-from-worst-to-best
+https://www.discogs.com/Pink-Floyd-The-Dark-Side-Of-The-Moon/release/7947303
+https://www.rollingstone.com/music/music-features/pink-floyds-dark-side-of-the-moon-10-things-you-didnt-know-201743/
+https://www.allmusic.com/album/the-dark-side-of-the-moon-mw0000191308
+https://www.amazon.com/Dark-Side-Moon-Pink-Floyd/dp/B000002U82
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for us and them pink floyd was saved!
+https://en.wikipedia.org/wiki/Us_and_Them_(song)
+https://genius.com/Pink-floyd-us-and-them-lyrics
+https://www.songfacts.com/facts/pink-floyd/us-and-them
+https://www.azlyrics.com/lyrics/pinkfloyd/usandthem.html
+https://americansongwriter.com/2018/11/pink-floyd-us/
+https://fr.wikipedia.org/wiki/Us_and_Them_(chanson)
+https://songmeanings.com/songs/view/2812/
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for when did pink floyd form was saved!
+https://en.wikipedia.org/wiki/Pink_Floyd
+https://www.britannica.com/topic/Pink-Floyd
+http://www.mtosmt.org/issues/mto.15.21.2/mto.15.21.2.cohen.html
+https://www.allmusic.com/artist/pink-floyd-mn0000346336/biography
+https://ultimateclassicrock.com/pink-floyd-facts/
+https://www.liveabout.com/history-of-pink-floyd-timeline-747551
+https://www.pentagram.com/work/pink-floyd-records
+https://www.rollingstone.com/music/music-news/pink-floyd-the-inside-story-104505/
+https://www.huffpost.com/entry/pink-floyd-nick-mason-new-band_n_5b0b69b9e4b0802d69cc74e7
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for lead singer of pink floyd was saved!
+https://en.wikipedia.org/wiki/Pink_Floyd
+https://en.wikipedia.org/wiki/Syd_Barrett
+https://www.theguardian.com/culture/2006/jul/11/pinkfloyd.popandrock
+https://www.quora.com/How-many-different-lead-singers-has-Pink-Floyd-had
+https://ultimateclassicrock.com/pink-floyd-facts/
+https://www.pastemagazine.com/articles/2017/05/was-syd-barrett-an-acid-casualty.html
+https://www.nme.com/news/music/pink-floyd-95-1318218
+https://ultimateclassicrock.com/pink-floyd-roger-waters-songs/
+https://www.quora.com/Who-is-the-leader-of-Pink-Floyd
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for  who is the president of the United States was saved!
+https://en.wikipedia.org/wiki/President_of_the_United_States
+https://www.whitehouse.gov/about-the-white-house/presidents/
+https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States
+https://www.usa.gov/presidents
+https://www.britannica.com/topic/presidency-of-the-United-States-of-America
+https://simple.wikipedia.org/wiki/President_of_the_United_States
+https://www.britannica.com/place/United-States/Presidents-of-the-United-States
+https://www.usatoday.com/story/news/politics/2018/11/30/george-h-w-bush-dead-94/544336002/
+https://www.cato.org/blog/president-not-commander-chief-united-states-nor-its-ceo
+/results
+The JSON data file for  who is the president of the United States was saved!
+https://en.wikipedia.org/wiki/President_of_the_United_States
+https://www.whitehouse.gov/about-the-white-house/presidents/
+https://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States
+https://www.usa.gov/presidents
+https://www.britannica.com/topic/presidency-of-the-United-States-of-America
+https://simple.wikipedia.org/wiki/President_of_the_United_States
+https://www.britannica.com/place/United-States/Presidents-of-the-United-States
+https://www.usatoday.com/story/news/politics/2018/11/30/george-h-w-bush-dead-94/544336002/
+https://www.cato.org/blog/president-not-commander-chief-united-states-nor-its-ceo
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for  who is the champion of the NBA was saved!
+https://en.wikipedia.org/wiki/List_of_NBA_champions
+https://www.basketball-reference.com/playoffs/
+https://en.wikipedia.org/wiki/2017_NBA_Finals
+https://simple.wikipedia.org/wiki/List_of_NBA_champions
+https://en.wikipedia.org/wiki/2018_NBA_Finals
+https://www.landofbasketball.com/championships/year_by_year.htm
+https://www.basketusa.com/champions-nba/
+http://www.nba.com/video/2017/06/13/20170613-nba-finals-game-5-minimovie
+https://blog.ticketcity.com/nba/nba-finals-champions/
+http://www.nba.com/video/channels/playoffs/finals/2016/06/20/0041500407-cle-gsw-play33.nba
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for the song of The Beatles Yesterday in YouTube  was saved!
+https://m.youtube.com/watch?v=tEnixuWLrtc
+https://www.ispot.tv/ad/Inff/youtube-music-app-made-for-listening-song-by-the-beatles
+https://music.youtube.com/channel/UC2XdaAVUannpujzv32jcouQ
+http://mentalfloss.com/article/66007/15-songs-came-dreams
+https://www.pinterest.com/pin/286893438748563142/
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for  what is the time now was saved!
+https://time.is/
+https://www.time.gov/
+https://www.timeanddate.com/worldclock/philippines
+https://24timezones.com/world_directory/time_in_new_york.php
+https://www.timeanddate.com/worldclock/
+https://www.worldtimeserver.com/current_time_in_IN.aspx
+https://www.timeanddate.com/worldclock/usa/new-york
+https://en.wikipedia.org/wiki/Times_Now
+https://www.timeanddate.com/worldclock/uk
+https://golang.org/pkg/time/
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for where is the closest supermarket  was saved!
+https://www.wholefoodsmarket.com/
+https://www.shopfamilyfare.com/locations
+https://www.heb.com/store-locations
+https://locations.bravosupermarkets.com/
+https://www.tripadvisor.com/FAQ_Answers-g47599-d619345-t2365990-Where_is_the_closest_Supermarket_thank_you.html
+https://giantfood.com/store-locator/
+https://www.tripadvisor.com/FAQ_Answers-g34344-d294734-t3536273-Where_is_the_closest_supermarket.html
+https://www.fiestamart.com/
+https://www.lidl.com/
+https://www.gianteagle.com/
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for Elton John Wikipedia  was saved!
+https://en.wikipedia.org/wiki/Elton_John
+https://simple.wikipedia.org/wiki/Elton_John
+https://en.wikipedia.org/wiki/Bernie_Taupin
+https://fr.wikipedia.org/wiki/Elton_John
+https://en.wikipedia.org/wiki/Elton_John_discography
+https://es.wikipedia.org/wiki/Elton_John
+https://de.wikipedia.org/wiki/Elton_John
+https://pl.wikipedia.org/wiki/Elton_John
+https://it.wikipedia.org/wiki/Discografia_di_Elton_John
+https://pt.wikipedia.org/wiki/Elton_John
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for Define  Jermaine was saved!
+https://www.urbandictionary.com/define.php?term=Jermaine
+https://www.merriam-webster.com/dictionary/germane
+https://www.urbandictionary.com/define.php?term=Jermaine%20%20%20%20Dupri
+https://en.wikipedia.org/wiki/Jermaine
+https://www.dictionary.com/browse/germane
+https://en.wikipedia.org/wiki/Jermaine_Dupri
+https://www.linkedin.com/in/jermaine-jones-43706416a
+https://open.spotify.com/user/playstation_music/playlist/3M5BXQZsLbXHF8iAUsuSzf
+https://en.wikipedia.org/wiki/Germaine_Greer
+https://www.prnewswire.com/news-releases/jermaine-dupri-announces-so-so-def-25th-anniversary-cultural-curreny-tour-300688206.html
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for  Define germane was saved!
+https://www.merriam-webster.com/dictionary/germane
+https://dictionary.cambridge.org/dictionary/english/germane
+https://www.vocabulary.com/dictionary/germane
+https://www.dictionary.com/browse/germane
+https://www.thefreedictionary.com/germane
+https://www.yourdictionary.com/germane
+https://www.urbandictionary.com/define.php?term=germane
+https://legal-dictionary.thefreedictionary.com/germane
+https://www.macmillandictionary.com/us/dictionary/american/germane
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for   what is Fitts law was saved!
+https://www.interaction-design.org/literature/topics/fitts-law
+https://en.wikipedia.org/wiki/Fitts%27s_law
+https://www.interaction-design.org/literature/book/the-glossary-of-human-computer-interaction/fitts-s-law
+https://lawsofux.com/fittss-law
+https://www.webfx.com/blog/web-design/improving-usability-with-fitts-law/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1664660/
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for blind film critic YouTube how do you see the internet  was saved!
+https://www.wired.com/story/blind-youtube-creators/
+https://www.youtube.com/user/BlindFilmCritic
+https://en.wikipedia.org/wiki/Tommy_Edison
+https://www.theatlantic.com/technology/archive/2012/05/how-tommy-edison-the-blind-film-critic--became-a-youtube-sensation/467880/
+https://inevitablehuman.com/the-blind-youtubers-changing-the-accessibility-of-the-internet/
+https://www.makeuseof.com/tag/5-youtube-channels-mustsee-movie-reviews/
+https://abcnews.go.com/US/blind-film-critic-tommy-edison-taking-internet-storm/story?id=13537107
+https://atbanter.com/tag/youtube/
+http://blindfilmcritic.com/
+/home 	 2019-07-02T22:48:34.011Z
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for  how many students are in the y r d s v was saved!
+https://en.wikipedia.org/wiki/York_Region_District_School_Board
+http://www.yrdsb.ca/AboutUs/
+https://twitter.com/yrdsb?lang=en
+http://net.schoolbuscity.com/faq
+https://yrdsb.civicweb.net/Portal/CitizenEngagement.aspx
+http://www.edu.gov.on.ca/eng/new/2017/YRDSB_review_report_2017.pdf
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for why are BSB  blind students enrollment percentage was saved!
+https://nfb.org/resources/blindness-statistics
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4005179/
+https://www.med.unc.edu/admit/faqs/
+https://business.ku.edu/
+https://portal.ct.gov/dors
+https://en.wikipedia.org/wiki/Baylor_University
+https://www.apsva.us/school-options/
+https://en.wikipedia.org/wiki/Wesleyan_University
+https://www.curbed.com/2018/7/20/17582148/accessible-playgrounds-design-ada-standards-inclusive
+https://www.bluecrossnc.com/
+/home 	 2019-07-02T22:48:34.011Z
+/results
+The JSON data file for  blind student enrollment rate for the York Region District School Board was saved!
+http://www.yrdsb.ca/Programs/SpecEd/Documents/SpecEdPlan/SD-specialeducationplan.pdf
+https://en.wikipedia.org/wiki/Eastern_York_School_District
+https://en.wikipedia.org/wiki/Red_Lion_Area_School_District
+http://yorkacademy.com/
+http://www.edu.gov.on.ca/eng/funding/t4.pdf
+https://nfb.org/resources/blindness-statistics
+http://www.edu.gov.on.ca/eng/funding/1819/sb10-gsn-special-funding-en.pdf
+https://projects.propublica.org/miseducation/state/PA
+http://www.doe.virginia.gov/support/nutrition/statistics/index.shtml
+
+
+ 2019-07-07T02:50:18.495Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-07-07T02:50:15.985Z
+/home 	 2019-07-07T02:50:15.985Z
+/results
+The JSON data file for  how to install Google Chrome Linux terminal was saved!
+https://linuxize.com/post/how-to-install-google-chrome-web-browser-on-ubuntu-18-04/
+https://www.wikihow.com/Install-Google-Chrome-Using-Terminal-on-Linux
+https://askubuntu.com/questions/79280/how-to-install-chrome-browser-properly-via-command-line
+https://itsfoss.com/install-chrome-ubuntu/
+https://www.linuxbabe.com/ubuntu/install-google-chrome-ubuntu-16-04-lts
+https://www.google.com/linuxrepositories/
+https://www.howtogeek.com/203768/beginner-how-to-install-google-chrome-in-ubuntu-14.04/
+https://www.google.com/get/noto/help/install/
+https://www.linuxbabe.com/ubuntu/install-google-chrome-ubuntu-18-04-lts
+https://linoxide.com/linux-how-to/install-latest-chrome-run-terminal-ubuntu/
+
+
+ 2019-07-07T23:06:32.388Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for  Bohemian Rhapsody was saved!
+https://en.wikipedia.org/wiki/Bohemian_Rhapsody_(film)
+https://www.foxmovies.com/movies/bohemian-rhapsody
+https://www.facebook.com/BohemianRhapsodyMovie/
+https://www.amazon.com/Bohemian-Rhapsody-Rami-Malek/dp/B07K2LGD2B
+https://www.instagram.com/bohemianrhapsodymovie/?hl=en
+https://www.deezer.com/us/track/9997018
+/results
+The JSON data file for  Bohemian Rhapsody was saved!
+https://en.wikipedia.org/wiki/Bohemian_Rhapsody_(film)
+https://www.foxmovies.com/movies/bohemian-rhapsody
+https://www.facebook.com/BohemianRhapsodyMovie/
+https://www.amazon.com/Bohemian-Rhapsody-Rami-Malek/dp/B07K2LGD2B
+https://www.instagram.com/bohemianrhapsodymovie/?hl=en
+https://www.deezer.com/us/track/9997018
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for  Bohemian Rhapsody was saved!
+https://en.wikipedia.org/wiki/Bohemian_Rhapsody_(film)
+https://www.foxmovies.com/movies/bohemian-rhapsody
+https://www.facebook.com/BohemianRhapsodyMovie/
+https://www.amazon.com/Bohemian-Rhapsody-Rami-Malek/dp/B07K2LGD2B
+https://www.instagram.com/bohemianrhapsodymovie/?hl=en
+https://www.deezer.com/us/track/9997018
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for  Elton John was saved!
+https://www.eltonjohn.com/
+https://en.wikipedia.org/wiki/Elton_John
+https://www.youtube.com/eltonjohn
+https://www.facebook.com/EltonJohn/
+https://www.biography.com/musician/elton-john
+https://www.cnn.com/2019/05/29/entertainment/rocketman-review/index.html
+http://ejaf.org/
+https://twitter.com/eltonofficial?lang=en
+https://www.instagram.com/eltonjohn/?hl=en
+https://www.nytimes.com/2019/06/12/movies/elton-john-rocketman.html
+/results
+The JSON data file for  Elton John was saved!
+https://www.eltonjohn.com/
+https://en.wikipedia.org/wiki/Elton_John
+https://www.youtube.com/eltonjohn
+https://www.facebook.com/EltonJohn/
+https://www.biography.com/musician/elton-john
+https://www.cnn.com/2019/05/29/entertainment/rocketman-review/index.html
+http://ejaf.org/
+https://twitter.com/eltonofficial?lang=en
+https://www.instagram.com/eltonjohn/?hl=en
+https://www.nytimes.com/2019/06/12/movies/elton-john-rocketman.html
+/results
+The JSON data file for  Elton John was saved!
+https://www.eltonjohn.com/
+https://en.wikipedia.org/wiki/Elton_John
+https://www.youtube.com/eltonjohn
+https://www.facebook.com/EltonJohn/
+https://www.biography.com/musician/elton-john
+https://www.cnn.com/2019/05/29/entertainment/rocketman-review/index.html
+http://ejaf.org/
+https://twitter.com/eltonofficial?lang=en
+https://www.instagram.com/eltonjohn/?hl=en
+https://www.nytimes.com/2019/06/12/movies/elton-john-rocketman.html
+/results
+The JSON data file for  Elton John was saved!
+https://www.eltonjohn.com/
+https://en.wikipedia.org/wiki/Elton_John
+https://www.youtube.com/eltonjohn
+https://www.facebook.com/EltonJohn/
+https://www.biography.com/musician/elton-john
+https://www.cnn.com/2019/05/29/entertainment/rocketman-review/index.html
+http://ejaf.org/
+https://twitter.com/eltonofficial?lang=en
+https://www.instagram.com/eltonjohn/?hl=en
+https://www.nytimes.com/2019/06/12/movies/elton-john-rocketman.html
+/results
+The JSON data file for  Elton John was saved!
+https://www.eltonjohn.com/
+https://en.wikipedia.org/wiki/Elton_John
+https://www.youtube.com/eltonjohn
+https://www.facebook.com/EltonJohn/
+https://www.biography.com/musician/elton-john
+https://www.cnn.com/2019/05/29/entertainment/rocketman-review/index.html
+http://ejaf.org/
+https://twitter.com/eltonofficial?lang=en
+https://www.instagram.com/eltonjohn/?hl=en
+https://www.nytimes.com/2019/06/12/movies/elton-john-rocketman.html
+/results
+The JSON data file for  Elton John was saved!
+https://www.eltonjohn.com/
+https://en.wikipedia.org/wiki/Elton_John
+https://www.youtube.com/eltonjohn
+https://www.facebook.com/EltonJohn/
+https://www.biography.com/musician/elton-john
+https://www.cnn.com/2019/05/29/entertainment/rocketman-review/index.html
+http://ejaf.org/
+https://twitter.com/eltonofficial?lang=en
+https://www.instagram.com/eltonjohn/?hl=en
+https://www.nytimes.com/2019/06/12/movies/elton-john-rocketman.html
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for  Elton John Rocket Man was saved!
+https://www.nytimes.com/2019/06/12/movies/elton-john-rocketman.html
+https://en.wikipedia.org/wiki/Rocketman_(film)
+https://en.wikipedia.org/wiki/Rocket_Man_(song)
+https://www.rollingstone.com/music/music-news/rocketman-fact-check-elton-john-biopic-842902/
+https://www.rollingstone.com/music/music-news/watch-taron-egerton-perform-elton-john-rocket-man-830217/
+https://www.cinemablend.com/news/2474293/rocketman-big-differences-between-the-movie-and-elton-johns-real-life
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for  YouTube was saved!
+https://m.youtube.com/
+https://www.youtube.com/my_videos?o=U
+https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+https://en.wikipedia.org/wiki/YouTube
+https://play.google.com/store/apps/details?id=com.google.android.youtube
+https://youtube.googleblog.com/2019/06/our-ongoing-work-to-tackle-hate.html
+https://support.google.com/youtube/answer/2474026?hl=en
+https://apps.apple.com/us/app/youtube-watch-listen-stream/id544007664
+https://developers.google.com/youtube/
+/results
+The JSON data file for  YouTube was saved!
+https://m.youtube.com/
+https://www.youtube.com/my_videos?o=U
+https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+https://en.wikipedia.org/wiki/YouTube
+https://play.google.com/store/apps/details?id=com.google.android.youtube
+https://youtube.googleblog.com/2019/06/our-ongoing-work-to-tackle-hate.html
+https://support.google.com/youtube/answer/2474026?hl=en
+https://apps.apple.com/us/app/youtube-watch-listen-stream/id544007664
+https://developers.google.com/youtube/
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for electricity  YouTube was saved!
+https://m.youtube.com/watch?v=FehUCQKKRwo
+https://en.wikipedia.org/wiki/Mehdi_Sadaghdar
+https://www.knowablemagazine.org/article/living-world/2018/controlling-electric-signals-body-could-help-it-heal
+https://www.thunderbolts.info/wp/
+https://interestingengineering.com/10-best-engineering-youtube-channels
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for  Billie Jean's YouTube was saved!
+https://m.youtube.com/watch?v=ekuo4YoW2H8
+https://dropnite.com/map.php?id=1312
+https://en.wikipedia.org/wiki/Battle_of_the_Sexes_(tennis)
+https://www.nydailynews.com/entertainment/music/ny-ent-weezer-surprise-cover-album-no-scrubs-20190124-story.html
+https://www.pinterest.com/pin/809451733000656312/
+/results
+The JSON data file for  Billie Jean's YouTube was saved!
+/results
+The JSON data file for  Billie Jean's YouTube was saved!
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for Elton John  Rocket Man YouTube was saved!
+/results
+The JSON data file for Elton John  Rocket Man YouTube was saved!
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for  Elton John Rocket Man YouTube was saved!
+https://m.youtube.com/watch?v=3wB1I_X-Cfs
+https://m.youtube.com/watch?v=fXmDRYCpcTw
+https://www.forbes.com/sites/markbeech/2019/06/05/madonna-boosts-maluma-to-20-million-youtube-subscribers-elton-johns-views-rocket/
+https://ew.com/music/2019/06/02/great-elton-john-songs-not-in-rocketman/
+https://en.wikipedia.org/wiki/Rocket_Man_(song)
+https://ultimateclassicrock.com/taron-egerton-rocket-man/
+/results
+The JSON data file for  Elton John Rocket Man YouTube was saved!
+https://m.youtube.com/watch?v=3wB1I_X-Cfs
+https://m.youtube.com/watch?v=fXmDRYCpcTw
+https://www.forbes.com/sites/markbeech/2019/06/05/madonna-boosts-maluma-to-20-million-youtube-subscribers-elton-johns-views-rocket/
+https://ew.com/music/2019/06/02/great-elton-john-songs-not-in-rocketman/
+https://en.wikipedia.org/wiki/Rocket_Man_(song)
+https://ultimateclassicrock.com/taron-egerton-rocket-man/
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for Moulin Rouge  Elton John scene YouTube was saved!
+https://www.pinterest.com/pin/593912269584939563/
+https://www.today.com/popculture/nicole-kidman-keith-urban-recreated-moulin-rouge-song-watch-sweet-t155213
+https://en.wikipedia.org/wiki/Moulin_Rouge!
+https://www.dailyedge.ie/nineteen-amazing-soundtracks-881153-Apr2013/
+/home 	 2019-07-07T23:06:31.981Z
+/results
+The JSON data file for  Steely Dan YouTube was saved!
+https://m.youtube.com/watch?v=6Sk8itxAK8g
+http://www.youtube.com/playlist?list=PL8CD14E442AD9BB42
+https://www.pinterest.com/pin/405605510167094407/
+https://www.vulture.com/2017/09/remembering-steely-dans-walter-becker.html
+https://news.ycombinator.com/item?id=16814943
+https://www.vox.com/2016/5/9/11609494/irving-azoff-youtube-artists-streaming-music
+
+
+ 2019-09-03T15:11:43.090Z 
+
+
+App Started! /var/www/html/serpui/public
+
+
+ 2019-09-03T16:34:05.977Z 
+
+
+
+
+ 2019-09-03T16:40:28.290Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-09-03T16:40:27.879Z
+/home 	 2019-09-03T16:40:27.879Z
+/home 	 2019-09-03T16:40:27.879Z
+/home 	 2019-09-03T16:40:27.879Z
+/home 	 2019-09-03T16:40:27.879Z
+/results
+The JSON data file for  Hideaway YouTube was saved!
+https://m.youtube.com/watch?v=Z1imASKi8nQ
+https://m.youtube.com/watch?v=JhmX0jxVfQM&list=PLDlq5wFaathq27H_ByJ-IhBvPohKuSTQ_&index=3
+https://m.youtube.com/watch?v=XpAsGi956AY
+https://m.youtube.com/watch?v=T8hX0jSZrAo&list=OLAK5uy_ndKRXH14OIxTQWdVUDXhjUxKQIH1nd1ro&index=11&t=0s
+https://m.youtube.com/watch?v=qHjDVeLOMmc
+https://m.youtube.com/watch?v=3pafKnGdcXA&list=PLyc41rhnms1WrNVnIy7K8e_OfIlrSzVdK&index=37
+/home 	 2019-09-03T16:40:27.879Z
+/home 	 2019-09-03T16:40:27.879Z
+/results
+The JSON data file for  cocaine Joe Cocker was saved!
+https://ew.com/article/2014/12/22/joe-cocker-obituary/
+https://www.jambase.com/article/widespread-panic-dusts-off-jj-cale-joe-cocker-covers-in-st-augustine
+https://www.independent.co.uk/news/people/news/joe-cocker-formidable-vocalist-who-triumphed-at-woodstock-and-won-a-grammy-with-up-where-we-belong-9943221.html
+https://www.ranker.com/list/crazy-john-belushi-stories/erin-mccann
+http://www.contactmusic.com/joe-cocker/news/cocker-physically-damaged-by-drug-and-alcohol-addiction_1031354
+https://www.thesun.co.uk/news/4114768/princess-diana-dodi-fayed-drug-addict-gay-clubs-liza-minnelli-robin-williams-book/
+https://jambands.com/news/2019/08/04/in-st-augustine-widespread-panic-play-first-version-of-cocaine-since-2013/
+
+
+ 2019-09-06T13:03:06.587Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-09-06T13:03:03.753Z
+/home 	 2019-09-06T13:03:03.753Z
+/results
+The JSON data file for    how far is Mercury from Earth was saved!
+http://coolcosmos.ipac.caltech.edu/ask/25-How-far-is-Mercury-from-Earth-
+https://theplanets.org/distances-between-planets/
+https://solarsystem.nasa.gov/planets/mercury/in-depth/
+https://www.universetoday.com/14165/distance-from-earth-to-mercury/
+http://curious.astro.cornell.edu/about-us/56-our-solar-system/planets-and-dwarf-planets/general-questions/214-how-far-is-each-planet-from-earth-intermediate
+https://en.wikipedia.org/wiki/Mercury_(planet)
+https://www.space.com/18646-mercury-distance.html
+https://www.sciencealert.com/whoops-turns-out-mercury-might-be-earth-s-closest-neighbour-after-all
+https://www.space.com/39240-when-to-see-planets-in-the-sky.html
+https://sciencing.com/distances-planets-sun-light-years-8774149.html
+/home 	 2019-09-06T13:03:03.753Z
+/home 	 2019-09-06T13:03:03.753Z
+/results
+The JSON data file for  Sorry by Justin Bieber YouTube was saved!
+https://m.youtube.com/watch?v=fRh_vgS2dFE&list=PLDVjhVhxOGSI62hNJwa-tfpCxKXnbkPo3&index=112
+https://m.youtube.com/watch?v=fRh_vgS2dFE&list=PLQYoTcOC3IUkFxxikDVec2tGYAbv1JLt2&index=120
+https://influencermarketinghub.com/15-most-viewed-youtube-videos-of-all-time/
+https://en.wikipedia.org/wiki/Sorry_(Justin_Bieber_song)
+https://www.webafrica.co.za/blog/streaming/the-most-watched-youtube-videos-of-all-time/
+https://www.marketwatch.com/story/this-is-how-much-money-luis-fonsi-made-from-about-5-billion-streams-of-despacito-2017-11-17
+/home 	 2019-09-06T13:03:03.753Z
+/results
+The JSON data file for  Shawn Mendes and Camila Cabello senorita YouTube was saved!
+https://www.youtube.com/watch?v=Pkh8UtuejGw
+https://m.youtube.com/watch?v=T-KJdd5a_fY
+https://www.etonline.com/shawn-mendes-and-camila-cabello-drop-steamy-new-collab-senorita-watch-127427
+https://www.spin.com/2019/06/shawn-mendes-camila-cabello-senorita-video-watch/
+http://www.mtv.com/news/3129991/camila-cabello-shawn-mendes-senorita-video-choreographers-interview/
+https://www.vulture.com/2019/06/watch-shawn-mendes-camila-cabello-in-seorita-music-video.html
+https://www.teenvogue.com/story/shawn-mendes-camila-cabello-senorita-music-video
+/home 	 2019-09-06T13:03:03.753Z
+/results
+The JSON data file for  how far away is planet Mars from Earth was saved!
+https://www.space.com/24701-how-long-does-it-take-to-get-to-mars.html
+https://mars.nasa.gov/all-about-mars/night-sky/close-approach/
+https://www.space.com/16875-how-far-away-is-mars.html
+https://www.thesun.co.uk/tech/7841056/mars-red-planet-distance-how-long-to-get-there/
+https://www.space.com/14729-spacekids-distance-earth-mars.html
+https://www.universetoday.com/14841/how-long-does-it-take-to-get-to-mars/
+https://headsup.boyslife.org/how-far-away-from-earth-is-mars/
+https://solarsystem.nasa.gov/planets/mars/overview/
+https://sservi.nasa.gov/articles/how-far-is-it-to-mars/
+/home 	 2019-09-06T13:03:03.753Z
+/results
+The JSON data file for  how far is planet Jupiter from Earth was saved!
+https://www.space.com/18383-how-far-away-is-jupiter.html
+https://www.universetoday.com/128259/long-take-get-jupiter/
+https://theplanets.org/distances-between-planets/
+https://www.thesun.co.uk/tech/6954024/how-far-jupiter-earth-planet-gas-atmosphere-juno-mission/
+https://earthsky.org/astronomy-essentials/why-jupiter-closest-after-before-opposition
+http://curious.astro.cornell.edu/about-us/56-our-solar-system/planets-and-dwarf-planets/general-questions/214-how-far-is-each-planet-from-earth-intermediate
+https://solarsystem.nasa.gov/planets/jupiter/overview/
+https://en.wikipedia.org/wiki/Jupiter
+https://solarsystem.nasa.gov/planets/jupiter/in-depth/
+https://www.quora.com/How-far-is-Jupiter-from-the-earth-today
+/home 	 2019-09-06T13:03:03.753Z
+/results
+The JSON data file for  how far is planet Mercury from Earth was saved!
+http://coolcosmos.ipac.caltech.edu/ask/25-How-far-is-Mercury-from-Earth-
+https://theplanets.org/distances-between-planets/
+https://solarsystem.nasa.gov/planets/mercury/in-depth/
+http://curious.astro.cornell.edu/about-us/56-our-solar-system/planets-and-dwarf-planets/general-questions/214-how-far-is-each-planet-from-earth-intermediate
+https://solarsystem.nasa.gov/planets/mercury/overview/
+https://www.universetoday.com/14165/distance-from-earth-to-mercury/
+https://en.wikipedia.org/wiki/Mercury_(planet)
+https://www.universetoday.com/33719/how-long-does-it-take-to-get-to-mercury/
+https://www.space.com/36-mercury-the-suns-closest-planetary-neighbor.html
+https://www.sciencealert.com/whoops-turns-out-mercury-might-be-earth-s-closest-neighbour-after-all
+/home 	 2019-09-06T13:03:03.753Z
+/results
+The JSON data file for  what is my latitude and longitude was saved!
+https://www.latlong.net/
+https://www.maps.ie/coordinates.html
+https://support.google.com/maps/answer/18539?co=GENIE.Platform%3DDesktop&hl=en
+https://www.whatsmygps.com/
+https://gps-coordinates.org/
+https://apps.apple.com/us/app/find-my-latitude-and-longitude/id668745605
+https://www.mapdevelopers.com/geocode_tool.php
+https://www.wikihow.com/Get-Latitude-and-Longitude-from-Google-Maps
+https://mynasadata.larc.nasa.gov/basic-page/looking-latitudelongitude-finder
+https://play.google.com/store/apps/details?id=com.mylocation.latitudelongitude&hl=en_US
+/home 	 2019-09-06T13:03:03.753Z
+/home 	 2019-09-06T13:03:03.753Z
+/home 	 2019-09-06T13:03:03.753Z
+/home 	 2019-09-06T13:03:03.753Z
+/home 	 2019-09-06T13:03:03.753Z
+
+
+ 2019-09-11T16:24:17.082Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for   I love to dance was saved!
+https://en.wikipedia.org/wiki/I_Love_to_Love_(But_My_Baby_Loves_to_Dance)
+https://www.lovetodanceinc.com/
+https://dancewithmeusa.com/why-we-dance-the-reasons/
+https://ltdstudiobright.com/
+https://www.city-academy.com/news/what-we-love-about-dance/
+https://www.quora.com/Why-do-you-love-to-dance
+http://www.ilovedancenyc.com/
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for Africa by Toto  was saved!
+https://en.wikipedia.org/wiki/Africa_(Toto_song)
+https://www.rollingstone.com/music/music-features/toto-africa-the-new-anthem-747262/
+https://genius.com/Toto-africa-lyrics
+https://www.npr.org/2018/12/18/677895070/how-and-why-toto-s-1983-hit-africa-got-new-life-in-2018
+https://www.bbc.com/news/world-africa-46861137
+https://www.cnn.com/style/article/toto-africa-namibia-desert-scli-intl/index.html
+https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX
+https://www.cnet.com/news/africa-by-toto-is-playing-on-infinite-loop-in-the-african-desert/
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for  hello my name is Guy was saved!
+http://hellomynameisscott.com/
+https://www.amazon.com/Hello-My-Name-Scott-Ginsberg/dp/0972649700
+http://hellomynameisscott.com/meet-scott/
+http://www.hellomynameisblog.com/
+https://therisetothetop.com/interviews-guests/how-scott-ginsberg-turned-wearing-a-name-tag-into-a-six-figure-business/
+http://www.nametagscott.com/
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for   Superstition Stevie Wonder was saved!
+https://en.wikipedia.org/wiki/Superstition_(song)
+https://genius.com/Stevie-wonder-superstition-lyrics
+https://www.letras.mus.br/stevie-wonder/43222/
+https://open.spotify.com/track/300RfAPZ57B0y6YYj9n6DN
+https://it.wikipedia.org/wiki/Superstition_(Stevie_Wonder)
+https://www.azlyrics.com/lyrics/steviewonder/superstition.html
+https://www.songfacts.com/facts/stevie-wonder/superstition
+https://www.bbc.com/news/entertainment-arts-49473352
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for  LOL was saved!
+https://na.leagueoflegends.com/en/
+https://signup.na.leagueoflegends.com/en/signup/redownload
+https://lolsurprise.mgae.com/
+https://www.youtube.com/channel/UCo2rby93CZTX-rg7aBtG11Q
+https://www.youtube.com/channel/UC2t5bjwHdUX4vM2g8TRDq5g
+https://en.wikipedia.org/wiki/League_of_Legends
+https://nexus.leagueoflegends.com/en-us/esports/
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for             Stevie Wonder Superstition  was saved!
+https://en.wikipedia.org/wiki/Superstition_(song)
+https://genius.com/Stevie-wonder-superstition-lyrics
+https://www.azlyrics.com/lyrics/steviewonder/superstition.html
+https://open.spotify.com/track/300RfAPZ57B0y6YYj9n6DN
+https://it.wikipedia.org/wiki/Superstition_(Stevie_Wonder)
+https://www.letras.mus.br/stevie-wonder/43222/
+https://www.songfacts.com/facts/stevie-wonder/superstition
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for  hello was saved!
+https://hello.com/
+https://www.hellomagazine.com/
+https://en.wikipedia.org/wiki/Hello_(Adele_song)
+https://www.hellomagazine.com/us/
+https://en.wiktionary.org/wiki/hello
+https://www.merriam-webster.com/dictionary/hello
+https://www.hellodesign.com/
+https://www.sanrio.com/
+https://www.hello-products.com/
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for  McMaster Library was saved!
+https://library.mcmaster.ca/
+https://www.youtube.com/channel/UC1xhhcuWjuemoBtg-g2-uOg
+https://library.mcmaster.ca/databases
+https://twitter.com/maclibraries?lang=en
+https://hsl.mcmaster.ca/
+https://en.wikipedia.org/wiki/McMaster_University_Library
+https://gs.mcmaster.ca/resources/mcmaster-libraries
+https://catalogue.mcmaster.ca/
+https://hslmcmaster.libguides.com/prf.php?account_id=30529
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for Linkin Park Numb  was saved!
+https://en.wikipedia.org/wiki/Numb_(Linkin_Park_song)
+https://genius.com/Linkin-park-numb-lyrics
+https://www.deezer.com/en/track/677232
+https://www.cifraclub.com.br/linkin-park/numb/
+https://open.spotify.com/track/2nLtzopw4rPReszdYBJU6h
+https://www.givemesport.com/1503456-in-2014-linkin-parks-numb-was-played-instead-of-the-malta-national-anthem-ahead-of-slovakia-clash
+https://www.azlyrics.com/lyrics/linkinpark/numb.html
+https://www.songtexte.com/songtext/linkin-park/numb-63d69667.html
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for how far away is the Sun from the Earth  was saved!
+https://www.space.com/17081-how-far-is-earth-from-the-sun.html
+https://www.popsci.com/science/article/2013-07/how-close-could-i-get-sun-and-survive/
+http://coolcosmos.ipac.caltech.edu/ask/8-How-far-away-is-the-Sun-
+https://astrobob.areavoices.com/2014/09/23/how-long-would-it-take-to-drive-to-the-sun/
+https://www.nasa.gov/audience/foreducators/k-4/features/F_Measuring_the_Distance_Student_Pages.html
+https://www.bustle.com/p/what-is-aphelion-the-earth-is-as-far-away-from-the-sun-as-it-can-get-but-that-has-nothing-to-do-with-this-heat-wave-9690841
+http://curious.astro.cornell.edu/legal-information/41-our-solar-system/the-earth/orbit/83-is-the-distance-from-the-earth-to-the-sun-changing-advanced
+https://www.worldatlas.com/articles/how-far-is-the-earth-from-the-sun.html
+https://en.wikipedia.org/wiki/Astronomical_unit
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for  how far away is planet Mercury from Earth was saved!
+http://curious.astro.cornell.edu/about-us/56-our-solar-system/planets-and-dwarf-planets/general-questions/214-how-far-is-each-planet-from-earth-intermediate
+https://solarsystem.nasa.gov/planets/mercury/in-depth/
+http://coolcosmos.ipac.caltech.edu/ask/25-How-far-is-Mercury-from-Earth-
+https://solarsystem.nasa.gov/planets/mercury/overview/
+https://www.nationalgeographic.com/science/space/solar-system/mercury/
+https://theplanets.org/distances-between-planets/
+https://www.nasa.gov/planetmercury
+https://www.universetoday.com/14165/distance-from-earth-to-mercury/
+https://www.psi.edu/epo/faq/spacecraft.html
+https://spaceplace.nasa.gov/planets-weight/en/
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for how far is Mercury from the Earth  was saved!
+http://coolcosmos.ipac.caltech.edu/ask/25-How-far-is-Mercury-from-Earth-
+https://theplanets.org/distances-between-planets/
+https://solarsystem.nasa.gov/planets/mercury/in-depth/
+https://www.universetoday.com/14165/distance-from-earth-to-mercury/
+http://curious.astro.cornell.edu/about-us/56-our-solar-system/planets-and-dwarf-planets/general-questions/214-how-far-is-each-planet-from-earth-intermediate
+https://en.wikipedia.org/wiki/Mercury_(planet)
+https://www.space.com/18646-mercury-distance.html
+https://www.nasa.gov/planetmercury
+https://sciencing.com/distances-planets-sun-light-years-8774149.html
+https://www.sciencealert.com/whoops-turns-out-mercury-might-be-earth-s-closest-neighbour-after-all
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for  how far is Jupiter from the Earth was saved!
+https://www.space.com/18383-how-far-away-is-jupiter.html
+https://www.universetoday.com/128259/long-take-get-jupiter/
+https://theskylive.com/how-far-is-jupiter
+https://www.quora.com/How-far-is-Jupiter-from-the-earth-today
+https://earthsky.org/astronomy-essentials/why-jupiter-closest-after-before-opposition
+https://theplanets.org/distances-between-planets/
+https://solarsystem.nasa.gov/planets/jupiter/overview/
+https://en.wikipedia.org/wiki/Jupiter
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for  how far is Neptune from Earth was saved!
+https://www.space.com/18923-neptune-distance.html
+https://www.universetoday.com/21628/how-far-is-neptune-from-earth/
+https://en.wikipedia.org/wiki/Neptune
+https://theplanets.org/distances-between-planets/
+http://coolcosmos.ipac.caltech.edu/ask/143-How-long-does-it-take-to-get-to-Neptune-from-Earth-
+https://solarsystem.nasa.gov/planets/neptune/in-depth/
+https://www.funtrivia.com/askft/Question105915.html
+https://solarsystem.nasa.gov/planets/neptune/overview/
+https://theskylive.com/how-far-is-neptune
+https://sciencing.com/distances-planets-sun-light-years-8774149.html
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for Ed Sheeran shape of you  was saved!
+https://en.wikipedia.org/wiki/Shape_of_You
+https://metro.co.uk/2019/08/26/ed-sheerans-royalties-blocked-accused-habit-stealing-artists-songs-10632028/
+https://genius.com/Ed-sheeran-shape-of-you-lyrics
+https://www.cifraclub.com.br/ed-sheeran/shape-of-you/
+https://www.smoothradio.com/artists/ed-sheeran/copyright-court-case-shape-of-you-royalties/
+https://www.forbes.com/sites/hughmcintyre/2019/04/30/40-million-copies-and-counting-ed-sheerans-shape-of-you-is-on-its-way-to-making-history/
+https://www.nytimes.com/video/arts/music/100000005469604/ed-sheeran-shape-of-you.html
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for  Maroon 5 sugar was saved!
+https://en.wikipedia.org/wiki/Sugar_(Maroon_5_song)
+https://www.cifraclub.com.br/maroon-5/sugar/
+https://www.usatoday.com/story/life/entertainthis/2015/01/22/maroon-5-sugar-staged/77603854/
+https://www.letras.mus.br/maroon-5/sugar/
+https://www.scpr.org/blogs/newmedia/2015/01/17/17823/maroon-5-called-out-for-faking-sugar-wedding-crash/
+https://www.azlyrics.com/lyrics/maroon5/sugar.html
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for  pinkfong baby shark dance was saved!
+https://www.amazon.com/WowWee-Pinkfong-Shark-Official-Dancing/dp/B07JJG89V4
+https://qz.com/quartzy/1364335/the-story-behind-the-astonishingly-viral-baby-shark-youtube-video/
+https://www.vox.com/culture/2019/1/11/18177097/what-is-baby-shark-dance-challenge-explained
+https://m.youtube.com/watch?v=DKnyGQmV1Ls
+https://shorefire.com/releases/entry/baby-shark-live-to-hit-the-road-in-first-ever-north-american-tour
+/home 	 2019-09-11T16:24:14.032Z
+/results
+The JSON data file for how far is the Sun from Earth  was saved!
+https://www.space.com/17081-how-far-is-earth-from-the-sun.html
+https://www.popsci.com/science/article/2013-07/how-close-could-i-get-sun-and-survive/
+https://sciencenotes.org/how-far-is-the-sun-from-earth/
+http://coolcosmos.ipac.caltech.edu/ask/8-How-far-away-is-the-Sun-
+https://www.bustle.com/p/what-is-aphelion-the-earth-is-as-far-away-from-the-sun-as-it-can-get-but-that-has-nothing-to-do-with-this-heat-wave-9690841
+https://astrobob.areavoices.com/2014/09/23/how-long-would-it-take-to-drive-to-the-sun/
+https://www.worldatlas.com/articles/how-far-is-the-earth-from-the-sun.html
+https://www.universetoday.com/117843/how-did-we-find-the-distance-to-the-sun/
+http://curious.astro.cornell.edu/about-us/41-our-solar-system/the-earth/orbit/87-how-do-you-measure-the-distance-between-earth-and-the-sun-intermediate
+
+
+ 2019-09-13T16:12:17.338Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-09-13T16:12:11.978Z
+/results
+The JSON data file for  hell was saved!
+https://en.wikipedia.org/wiki/Hell
+https://www.gotohellmi.com/
+https://www.crosswalk.com/slideshows/10-things-you-should-know-about-hell.html
+https://www.britannica.com/topic/hell
+https://www.dictionary.com/browse/hell
+https://surlybrewing.com/beer/hell/
+https://www.hellskitcheninc.com/
+http://www.newadvent.org/cathen/07207a.htm
+
+
+ 2019-09-13T16:13:05.339Z 
+
+
+App Started! /var/www/html/serpui/public
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for hell was saved!
+https://en.wikipedia.org/wiki/Hell
+https://www.gotohellmi.com/
+https://www.crosswalk.com/slideshows/10-things-you-should-know-about-hell.html
+https://www.britannica.com/topic/hell
+https://www.dictionary.com/browse/hell
+https://surlybrewing.com/beer/hell/
+https://www.hellskitcheninc.com/
+http://www.newadvent.org/cathen/07207a.htm
+/home 	 2019-09-13T16:13:04.919Z
+/home 	 2019-09-13T16:13:04.919Z
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for    hello  was saved!
+https://hello.com/
+https://www.hellomagazine.com/
+https://en.wikipedia.org/wiki/Hello_(Adele_song)
+https://www.hellomagazine.com/us/
+https://en.wiktionary.org/wiki/hello
+https://www.hellodesign.com/
+https://www.merriam-webster.com/dictionary/hello
+https://www.sanrio.com/
+https://www.hello-products.com/
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for  how far is the Sun from Earth was saved!
+https://www.space.com/17081-how-far-is-earth-from-the-sun.html
+https://www.popsci.com/science/article/2013-07/how-close-could-i-get-sun-and-survive/
+https://sciencenotes.org/how-far-is-the-sun-from-earth/
+https://www.bustle.com/p/what-is-aphelion-the-earth-is-as-far-away-from-the-sun-as-it-can-get-but-that-has-nothing-to-do-with-this-heat-wave-9690841
+http://coolcosmos.ipac.caltech.edu/ask/8-How-far-away-is-the-Sun-
+https://astrobob.areavoices.com/2014/09/23/how-long-would-it-take-to-drive-to-the-sun/
+https://www.worldatlas.com/articles/how-far-is-the-earth-from-the-sun.html
+https://www.universetoday.com/117843/how-did-we-find-the-distance-to-the-sun/
+https://www.nasa.gov/audience/foreducators/k-4/features/F_Measuring_the_Distance_Student_Pages.html
+/results
+The JSON data file for how far is the Sun from Earth  was saved!
+https://www.space.com/17081-how-far-is-earth-from-the-sun.html
+https://www.popsci.com/science/article/2013-07/how-close-could-i-get-sun-and-survive/
+https://www.bustle.com/p/what-is-aphelion-the-earth-is-as-far-away-from-the-sun-as-it-can-get-but-that-has-nothing-to-do-with-this-heat-wave-9690841
+https://sciencenotes.org/how-far-is-the-sun-from-earth/
+http://coolcosmos.ipac.caltech.edu/ask/8-How-far-away-is-the-Sun-
+https://astrobob.areavoices.com/2014/09/23/how-long-would-it-take-to-drive-to-the-sun/
+https://www.worldatlas.com/articles/how-far-is-the-earth-from-the-sun.html
+https://www.universetoday.com/117843/how-did-we-find-the-distance-to-the-sun/
+https://www.nasa.gov/audience/foreducators/k-4/features/F_Measuring_the_Distance_Student_Pages.html
+/home 	 2019-09-13T16:13:04.919Z
+/home 	 2019-09-13T16:13:04.919Z
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for nm was saved!
+https://en.wikipedia.org/wiki/New_Mexico
+https://www.newmexico.org/
+https://www.unm.edu/
+https://www.cabq.gov/
+https://www.usnews.com/news/best-states/new-mexico
+https://www.nmlegis.gov/
+https://www.donaldjtrump.com/rallies/rio-nm-2019-sept
+https://nmsu.edu/
+https://www.sos.state.nm.us/
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for  Blue Jays baseball score was saved!
+https://www.espn.com/mlb/team/_/name/tor/toronto-blue-jays
+https://www.mlb.com/bluejays/scores
+https://www.sofascore.com/team/baseball/toronto-blue-jays/3642
+https://www.mlb.com/bluejays
+https://www.foxsports.com/mlb/toronto-blue-jays-team
+https://hopkinssports.com/index.aspx?path=baseball
+https://torontosun.com/category/sports/baseball/toronto-blue-jays
+https://etownbluejays.com/schedule.aspx?schedule=336
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for  distance from planet Venus to Earth was saved!
+https://www.space.com/18529-distance-to-venus.html
+https://theplanets.org/distances-between-planets/
+https://www.livescience.com/65002-closest-planet-earth.html
+http://curious.astro.cornell.edu/about-us/56-our-solar-system/planets-and-dwarf-planets/general-questions/214-how-far-is-each-planet-from-earth-intermediate
+https://solarsystem.nasa.gov/planets/venus/in-depth/
+https://physicstoday.scitation.org/do/10.1063/PT.6.3.20190312a/full/
+https://en.wikipedia.org/wiki/Venus
+https://www.nasa.gov/sites/default/files/files/YOSS_Act1.pdf
+https://gizmodo.com/mercury-not-venus-is-the-closest-planet-to-earth-1833290616
+https://image.gsfc.nasa.gov/poetry/venus/q89.html
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for distance from the earth to Venus  was saved!
+https://www.space.com/18529-distance-to-venus.html
+https://theplanets.org/distances-between-planets/
+https://www.universetoday.com/14152/venus-distance-from-earth/
+https://physicstoday.scitation.org/do/10.1063/PT.6.3.20190312a/full/
+http://curious.astro.cornell.edu/about-us/56-our-solar-system/planets-and-dwarf-planets/general-questions/214-how-far-is-each-planet-from-earth-intermediate
+https://en.wikipedia.org/wiki/Venus
+http://coolcosmos.ipac.caltech.edu/ask/52-How-far-away-is-Venus-from-Earth-
+https://socratic.org/questions/how-much-light-years-is-venus-far-from-the-earth
+https://sciencing.com/distances-planets-sun-light-years-8774149.html
+https://www.livescience.com/65002-closest-planet-earth.html
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for  how far away is Saturn from Earth was saved!
+https://www.space.com/18477-how-far-away-is-saturn.html
+https://solarsystem.nasa.gov/planets/saturn/in-depth/
+https://theplanets.org/distances-between-planets/
+https://www.universetoday.com/15311/how-far-is-saturn-from-earth/
+https://sciencing.com/distances-planets-sun-light-years-8774149.html
+https://www.extremetech.com/extreme/162050-earth-and-moon-photographed-from-900-million-miles-away-from-the-shadow-of-saturn
+https://qz.com/463529/watch-what-our-solar-system-would-look-like-when-traveling-at-the-speed-of-light/
+https://socratic.org/questions/how-many-miles-away-is-saturn-s-largest-moon-titan-from-the-sun-and-the-earth
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for  Gangnam Style was saved!
+https://en.wikipedia.org/wiki/Gangnam_Style
+https://en.wikipedia.org/wiki/Gangnam_Style_(music_video)
+https://www.urbandictionary.com/define.php?term=Gangnam%20Style
+https://www.jibjab.com/view/template/gangnam_style
+https://knowyourmeme.com/memes/gangnam-style
+https://open.spotify.com/track/03UrZgTINDqvnUMbbIMhql
+https://www.economist.com/the-economist-explains/2014/12/10/how-gangnam-style-broke-youtubes-counter
+/home 	 2019-09-13T16:13:04.919Z
+/results
+The JSON data file for  Sorry by Justin Bieber was saved!
+https://en.wikipedia.org/wiki/Sorry_(Justin_Bieber_song)
+https://genius.com/Justin-bieber-sorry-lyrics
+https://www.azlyrics.com/lyrics/justinbieber/sorry.html
+https://open.spotify.com/album/7sIgLnbKhrEN5k0tbB7xbI
+https://www.hooktheory.com/theorytab/view/justin-bieber/sorry
+https://time.com/4186679/justin-bieber-sorry-hoverboard-dance-video/
+/home 	 2019-09-13T16:13:04.919Z

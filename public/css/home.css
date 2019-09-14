@@ -33,6 +33,7 @@ input {
 	height: 10vh;
 	background-color: red;
 	width: inherit;
+	font-size: 30%;
 }
 
 #formDiv {
@@ -48,6 +49,10 @@ input {
 	display: table-cell;
 	padding: 1%;
 	vertical-align: top;
+}
+
+#helper_title {
+	margin: 0 0;
 }
 
 td, th {

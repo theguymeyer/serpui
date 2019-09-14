@@ -15,7 +15,12 @@ var user = {
     resultPos: null,
     contentPos: null
 };
+var flag_YOUTUBE = false;
 const borderTEXT = "!";
+const init_pos = {
+    result: 0,
+    content: 1
+}; // [result #, content #]
 
 // TTS constants
 const optionsTTS = {
@@ -77,8 +82,8 @@ function generateResultsList(data) {
 function initUser() {
     // start at title of Result 1
     user = $.extend(user, {
-        resultPos: 0,
-        contentPos: 1 // init to 1 since 0 is positions
+        resultPos: init_pos.result,
+        contentPos: init_pos.content
     });
 }
 
@@ -94,6 +99,8 @@ function planSERP() { // user is global
     var tilesPlan = Array(5).fill(''); //[borderTEXT, borderTEXT, user.resultPos + 1, borderTEXT, borderTEXT];
 
     for (var i = 0; i < currBorders.length; i++) {
+
+        // change to switch case
         if (!(currBorders[i])) {
             if (i == 0) { // neutral
                 tilesPlan[0] = currResult[resultsList[user.resultPos].getKeyPosition(user.contentPos)];
@@ -101,6 +108,10 @@ function planSERP() { // user is global
                 tilesPlan[1] = "Result " + (user.resultPos);
             } else if (i == 2) { // left
                 tilesPlan[2] = currResult[resultsList[user.resultPos].getKeyPosition(user.contentPos - 1)];
+                if (tilesPlan[2].includes("youtube")) {
+                    flag_YOUTUBE = true;
+                    console.log("WE GOT IT!!!")
+                };
             } else if (i == 3) { // down
                 tilesPlan[3] = "Result " + (user.resultPos + 2);
             } else if (i == 4) { // right
@@ -148,7 +159,7 @@ function drawSERP(tilesData) {
             currButton.innerHTML = '<iframe id="yt_player_iframe" width="100%" height="100%" src="//www.youtube.com/embed/' + myId +
                 `?autoplay=1&enablejsapi=1" frameborder="0" allowscriptaccess="always" allow="autoplay" allowfullscreen></iframe>`;
             //currButton.innerHTML = '<iframe id="yt_player_iframe" width="100%" height="100%" src="//www.youtube.com/embed/' + myId +
-//                `?autoplay=${(i == 0) ? 1 : 0}&enablejsapi=1" frameborder="0" allowscriptaccess="always" allowfullscreen></iframe>`;
+            //                `?autoplay=${(i == 0) ? 1 : 0}&enablejsapi=1" frameborder="0" allowscriptaccess="always" allowfullscreen></iframe>`;
 
             // enlarge video content to fit Tile
             var spanChild = document.getElementById('neutralButton').children[0]
@@ -162,9 +173,9 @@ function drawSERP(tilesData) {
                 currButton.style.background = colourScheme.borderBkgd;
                 currButton.style.color = colourScheme.borderText;
             } else if (elementIDs[i] == 'neutralButton') {
-		currButton.style.background = colourScheme.neutralBkgd;
-		currButton.style.color = colourScheme.neutralText;
-	    } else {
+                currButton.style.background = colourScheme.neutralBkgd;
+                currButton.style.color = colourScheme.neutralText;
+            } else {
                 currButton.style.background = colourScheme.activeBkgd;
                 currButton.style.color = colourScheme.activeText;
             }
@@ -272,7 +283,11 @@ function getBorders(userObj) {
 /* ----- User Functionality ----- */
 
 function resetContentPos() {
-    user.contentPos = 1;
+    if (flag_YOUTUBE) {
+        user.contentPos = init_pos.content + 1; // go directly to content
+    } else {
+        user.contentPos = init_pos.content;
+    }
 }
 
 // user input to move tiles
