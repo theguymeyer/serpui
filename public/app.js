@@ -20,8 +20,9 @@ app.use(express.static(__dirname, {
 require('./routes.js')(app);
 
 
-app.listen(port);
-app.listen(sport);
+//app.listen(port);
+app.listen(process.env.PORT || 5000);
+// app.listen(sport);
 
 console.log('\n\n', new Date() ,'\n\n')
 console.log('App Started!', __dirname);
