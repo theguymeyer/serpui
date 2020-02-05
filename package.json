@@ -1361,7 +1361,7 @@
       "resolved": "https://registry.npmjs.org/evp_bytestokey/-/evp_bytestokey-1.0.3.tgz",
       "version": "1.0.3"
     },
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "express-validator": "^5.3.1",
     "extend": {
       "integrity": "sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==",
@@ -2745,6 +2745,7 @@
       "resolved": "https://registry.npmjs.org/nodeQuery/-/nodeQuery-0.0.9-1.tgz",
       "version": "0.0.9-1"
     },
+    "npm": "^6.13.7",
     "number-is-nan": {
       "integrity": "sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=",
       "resolved": "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz",
