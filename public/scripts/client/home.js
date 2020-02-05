@@ -135,12 +135,12 @@ function Submit() {
         TTS("Cannot Submit Empty Query");
         //Clear(); // clear any false positives
 
-	return false;
+        return false;
     } else {
         var subBtn = document.getElementById("submitBtn");
         subBtn.click();
 
-	return true;
+        return true;
     }
 }
 
@@ -187,7 +187,7 @@ function buttonRequest(buttonObject) {
             (flag_recording) ? null: Clear();
             break;
         case "R": // location 
-            (flag_recording) ? TTS("I'm listening! Press down to submit your query"): TTS("Home Page. Press up to record a query");
+            (flag_recording) ? TTS("I'm listening! Press down to stop recording"): TTS("Home Page. Press up to record a query");
             break;
         case "RA": // Joystick - Helper Mode
             console.log("TODO: Key Helper Function");

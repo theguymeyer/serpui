@@ -283,11 +283,14 @@ function getBorders(userObj) {
 /* ----- User Functionality ----- */
 
 function resetContentPos() {
+    /* go to sinippet mod - reverted
     if (flag_YOUTUBE) {
         user.contentPos = init_pos.content + 1; // go directly to content
     } else {
         user.contentPos = init_pos.content;
-    }
+    }*/
+
+    user.contentPos = init_pos.content;
 }
 
 // user input to move tiles
