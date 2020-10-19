@@ -2,8 +2,7 @@
 ### No need to see.. this Search Engine can be used regardless of your level of vision.
 
 > “If you’re trying to get across the street and there are no curb cuts, six inches might as well be Mount Everest”
-
-&nbsp;&nbsp;- *Lawrence Carter Long*
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- *Lawrence Carter Long*
 
 This project is an attempt to create a Golden Standard for Web Search Engine Interfaces that is intuitive and usable to the largest number of people. The goal is to convey information without the need for vision. Users who are visually impaired can now spend less time on the Google search result page (SERP), and users with no visual disability can utilize this tool to browse the resutls page without the need to be looking at a screen.
 
